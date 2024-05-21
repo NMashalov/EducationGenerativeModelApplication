@@ -1,0 +1,38 @@
+\documentclass{mipt-thesis-bs}
+% Следующие две строки нужны только для biblatex. Для inline-библиографии их следует убрать.
+\usepackage{mipt-thesis-biblatex}
+\usepackage[justification=centering]{caption}
+\usepackage{glossaries}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage[title]{appendix}
+\addbibresource{ref.bib}
+
+
+\title{Применение генеративного моделирования как инструмента постановки естественнонаучной задачи педагогической направленности}
+\author{Машалов Никита}
+\supervisor{Щербаков Дмитрий}
+%\referee{Петров Д.\,Е.}       % требуется только для mipt-thesis-ms
+\groupnum{БО2-886}
+\faculty{Физтех-школа физики и исследований им. Ландау}
+\department{Кафедра инновационной педагогики}
+
+
+\begin{document}
+% Абстракт
+
+\input{chapters/intro}
+\chapter{Методика составления педагогических задач}
+\input{chapters/pedagogic_method/main}
+\chapter{Методы машинного обучения}
+\input{chapters/machine_learning/main}
+\chapter{Описание работы}
+\input{chapters/work/main}
+\chapter{Заключение}
+\input{chapters/final/main}
+
+
+\printbib
+
+\end{document}

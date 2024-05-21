@@ -1,0 +1,30 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[1] Config.pm:310> INFO - Logfile is 'main.blg'
+[123] biber:340> INFO - === Tue May 14, 2024, 21:27:43
+[147] Biber.pm:418> INFO - Reading 'main.bcf'
+[291] Biber.pm:972> INFO - Found 55 citekeys in bib section 0
+[316] Biber.pm:4383> INFO - Processing section 0
+[332] Biber.pm:4574> INFO - Looking for bibtex file 'ref.bib' for section 0
+[336] bibtex.pm:1713> INFO - LaTeX decoding ...
+[413] bibtex.pm:1518> INFO - Found BibTeX data source 'ref.bib'
+[975] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[976] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[976] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'ru-RU'
+[977] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
+[1063] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1108] bbl.pm:757> INFO - Output to main.bbl
+[1109] Biber.pm:130> WARN - Duplicate entry key: 'chomsky2002syntactic' in file 'ref.bib', skipping ...
+[1110] Biber.pm:130> WARN - I didn't find a database entry for 'выготский2014мышлениеw' (section 0)
+[1110] Biber.pm:130> WARN - I didn't find a database entry for 'rombach2022highresolution' (section 0)
+[1110] Biber.pm:130> WARN - I didn't find a database entry for 'song2020generative' (section 0)
+[1110] Biber.pm:130> WARN - I didn't find a database entry for 'stablediffusion' (section 0)
+[1111] Biber.pm:130> WARN - I didn't find a database entry for 'Schutze' (section 0)
+[1111] Biber.pm:130> WARN - I didn't find a database entry for 'NIPS2013_9aa42b31' (section 0)
+[1111] Biber.pm:130> WARN - I didn't find a database entry for 'lecun1989handwritten' (section 0)
+[1111] Biber.pm:130> WARN - I didn't find a database entry for 'simonyan2014very' (section 0)
+[1112] Biber.pm:130> WARN - I didn't find a database entry for 'ronneberger2015u' (section 0)
+[1112] Biber.pm:130> WARN - I didn't find a database entry for 'kirillov2023segment' (section 0)
+[1112] Biber.pm:130> WARN - I didn't find a database entry for 'libmipt' (section 0)
+[1112] Biber.pm:130> WARN - I didn't find a database entry for 'mathedu' (section 0)
+[1113] Biber.pm:130> WARN - I didn't find a database entry for 'ackenheimer2015introduction' (section 0)
+[1113] Biber.pm:132> INFO - WARNINGS: 14
