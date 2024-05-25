@@ -1,77 +1,39 @@
-Для обучения моделей необходимо использовать методы оптимизации
+\texit{Определение} \textbf{Метод градиентного спуск} метод нахождения экстремума функции
+посредством обновления с учетом градиента функции.
+\begin{equation}
+    x_{t+1} = x_t - f(\nabla L(x_t))  
+\end{equation}
+
+
+#
+Известными развновидностями методами являются:\begin{enumerate}
+    \item Метод Полякова:
+        \begin{equation}
+            \begin{aligned}
+                &x_{t+1}= x_t + \mathbf{v}_t \\
+                &v_t = \mu v_{t-1} - \eta \nabla L(x_t)
+            \end{aligned}
+        \end{equation}
+    \item RMSProp - AdaGrad + exponential decay:
+        \begin{equation}
+            \begin{aligned}
+                &x_{t+1} = x_t - \frac{\eta}{\sqrt{g_t+\epsilon}} \cdot \nabla L(x_t) \\
+                &g_t = \mu g_{t-1} + (1-\mu)\nabla L(x_t) \cdot \nabla  
+            \end{aligned}
+        \end{equation}
+    \item Adam \сite{kingma2014adam}:
+        \begin{equation}
+            \begin{aligned}
+                &x_{t+1} = x_t - \frac{\eta}{\frac{\sqrt{g_t+\epsilon}}{1-\mu^t}} \cdot \frac{v_{t+1}}{1-\beta^t} \\
+                &v_{t+1} = \beta v_t + (1-\beta) \nabla L(x_t) \\
+                &g_t = \mu g_{t-1} + (1-\mu)\nabla L(x_t) \cdot \nabla  L(x_t)
+            \end{aligned}
+        \end{equation}
+\end{enumerate}
 
 
 
-\texit{Определение} \textbf{EM-алгоритм} - алгоритм для нахождения оценок
-максимального правдоподобия параметров 
- вероятностных моделей с скрытыми переменными $\theta$.
 
-Алгоритм состоит из двух шагов. \begin{itemize}
-    \item E(xpectation) шага $q^{(t)} = $. Шаг 
-    обновляет распределение при фиксированных параметрах
-    \item M(maximization)
-\end{itemize}
-
-Таким образом параметра $\Theta$ является
-{\displaystyle \Theta _{n+1}} — это значение, максимизирующее $M$ условное матожидание $E$ логарифма правдоподобия при данных значениях наблюдаемых переменных и предыдущем значении параметров. 
-
-
-
-$$
-    P(\mathbf{T}| \mathbf{X},\mathbf{\Theta})
-$$
-
-стохастической аппроксимации,
- изложенному в работе Герберта Робинсона и Суттона Монро \cite{robbins1951stochastic}
-
-
-\texit{Определение} \textbf{Метод градиентного спуска}
-
-
-
-
-$$
-x_{t+1} = x_t - \eta \nabla L(x_t)  
-$$
-Известными развновидностями методами являются:
-
-
-Метод Полякова
-
-$$
-    x_{t+1}= x_t + \mathbf{v}_t \\
-    v_t = \mu v_{t-1} - \eta \nabla L(x_t)
-$$
-
-AdaGrad 
-
-$$
-    x_{t+1} = x_t - \frac{\eta}{\sqrt{g_t+\epsilon}} \cdot \nabla L(x_t) \\
-    g_t = g_{t-1} + \nabla L(x_t) \cdot \nabla 
-$$
-
-RMSProp - AdaGrad + exponential decay
-
-$$
-x_{t+1} = x_t - \frac{\eta}{\sqrt{g_t+\epsilon}} \cdot \nabla L(x_t) \\
-    g_t = \mu g_{t-1} + (1-\mu)\nabla L(x_t) \cdot \nabla  
-$$
-
-Adam \сite{kingma2014adam}
-
-
-$$
-x_{t+1} = x_t - \frac{\eta}{\frac{\sqrt{g_t+\epsilon}}{1-\mu^t}} \cdot \frac{v_{t+1}}{1-\beta^t} \\
-    v_{t+1} = \beta v_t + (1-\beta) \nabla L(x_t) \\
-    g_t = \mu g_{t-1} + (1-\mu)\nabla L(x_t) \cdot \nabla  L(x_t)
-$$
-
-Для оптимальной сходимости оптимизацию необходимо регуляризовать.
-
-
-\cite{ioffe2015batch}
-\textit{Определние} \textbf{Нормирование оптимизационной подвыборки}
-Batch Norm 
 
 
 
