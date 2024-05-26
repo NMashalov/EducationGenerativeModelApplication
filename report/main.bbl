@@ -1,0 +1,406 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{blum1954approximation}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9dcce269ab261d58e00a5c4511bb4ce8}{%
+           family={Blum},
+           familyi={B\bibinitperiod},
+           given={Julius\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{9dcce269ab261d58e00a5c4511bb4ce8}
+      \strng{fullhash}{9dcce269ab261d58e00a5c4511bb4ce8}
+      \strng{bibnamehash}{9dcce269ab261d58e00a5c4511bb4ce8}
+      \strng{authorbibnamehash}{9dcce269ab261d58e00a5c4511bb4ce8}
+      \strng{authornamehash}{9dcce269ab261d58e00a5c4511bb4ce8}
+      \strng{authorfullhash}{9dcce269ab261d58e00a5c4511bb4ce8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Annals of Mathematical Statistics}
+      \field{title}{Approximation methods which converge with probability one}
+      \field{year}{1954}
+      \field{pages}{382\bibrangedash 386}
+      \range{pages}{5}
+    \endentry
+    \entry{hu1998sequential}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a45ed51fdd75d160a35e8a83ccd018d7}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Inchi},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{a45ed51fdd75d160a35e8a83ccd018d7}
+      \strng{fullhash}{a45ed51fdd75d160a35e8a83ccd018d7}
+      \strng{bibnamehash}{a45ed51fdd75d160a35e8a83ccd018d7}
+      \strng{authorbibnamehash}{a45ed51fdd75d160a35e8a83ccd018d7}
+      \strng{authornamehash}{a45ed51fdd75d160a35e8a83ccd018d7}
+      \strng{authorfullhash}{a45ed51fdd75d160a35e8a83ccd018d7}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrika}
+      \field{number}{2}
+      \field{title}{On sequential designs in nonlinear problems}
+      \field{volume}{85}
+      \field{year}{1998}
+      \field{pages}{496\bibrangedash 503}
+      \range{pages}{8}
+    \endentry
+    \entry{hu1997strong}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a45ed51fdd75d160a35e8a83ccd018d7}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Inchi},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{a45ed51fdd75d160a35e8a83ccd018d7}
+      \strng{fullhash}{a45ed51fdd75d160a35e8a83ccd018d7}
+      \strng{bibnamehash}{a45ed51fdd75d160a35e8a83ccd018d7}
+      \strng{authorbibnamehash}{a45ed51fdd75d160a35e8a83ccd018d7}
+      \strng{authornamehash}{a45ed51fdd75d160a35e8a83ccd018d7}
+      \strng{authorfullhash}{a45ed51fdd75d160a35e8a83ccd018d7}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrika}
+      \field{number}{3}
+      \field{title}{Strong consistency in stochastic regression models via posterior covariance matrices}
+      \field{volume}{84}
+      \field{year}{1997}
+      \field{pages}{744\bibrangedash 749}
+      \range{pages}{6}
+    \endentry
+    \entry{joseph2004efficient}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0940a0484bb7a67bafe2611f0f8efbed}{%
+           family={Joseph},
+           familyi={J\bibinitperiod},
+           given={V\bibnamedelima Roshan},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{0940a0484bb7a67bafe2611f0f8efbed}
+      \strng{fullhash}{0940a0484bb7a67bafe2611f0f8efbed}
+      \strng{bibnamehash}{0940a0484bb7a67bafe2611f0f8efbed}
+      \strng{authorbibnamehash}{0940a0484bb7a67bafe2611f0f8efbed}
+      \strng{authornamehash}{0940a0484bb7a67bafe2611f0f8efbed}
+      \strng{authorfullhash}{0940a0484bb7a67bafe2611f0f8efbed}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrika}
+      \field{number}{2}
+      \field{title}{Efficient Robbins--Monro procedure for binary data}
+      \field{volume}{91}
+      \field{year}{2004}
+      \field{pages}{461\bibrangedash 470}
+      \range{pages}{10}
+    \endentry
+    \entry{lai1979adaptive}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a1362fd9155e9c2f925d1f119f2843ff}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Tze\bibnamedelima Leung},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=163566b92b332258782e61e3d217a2bb}{%
+           family={Robbins},
+           familyi={R\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{007a9b8f676d178afe376d9980596dc4}
+      \strng{fullhash}{007a9b8f676d178afe376d9980596dc4}
+      \strng{bibnamehash}{007a9b8f676d178afe376d9980596dc4}
+      \strng{authorbibnamehash}{007a9b8f676d178afe376d9980596dc4}
+      \strng{authornamehash}{007a9b8f676d178afe376d9980596dc4}
+      \strng{authorfullhash}{007a9b8f676d178afe376d9980596dc4}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The annals of Statistics}
+      \field{title}{Adaptive design and stochastic approximation}
+      \field{year}{1979}
+      \field{pages}{1196\bibrangedash 1221}
+      \range{pages}{26}
+    \endentry
+    \entry{liu2024robbins}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b3f48d9bcdf9dab4cbea3139ce282bba}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Siwei},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3a28d37361fd4b58b2d56a309b53dcf8}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Ke},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8a9444db9a862e0ddea12dad3f8981b9}{%
+           family={Goetz},
+           familyi={G\bibinitperiod},
+           given={Stephan\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ff448dfbe7b516749b8aae4f9b0a6ae}
+      \strng{fullhash}{5ff448dfbe7b516749b8aae4f9b0a6ae}
+      \strng{bibnamehash}{5ff448dfbe7b516749b8aae4f9b0a6ae}
+      \strng{authorbibnamehash}{5ff448dfbe7b516749b8aae4f9b0a6ae}
+      \strng{authornamehash}{5ff448dfbe7b516749b8aae4f9b0a6ae}
+      \strng{authorfullhash}{5ff448dfbe7b516749b8aae4f9b0a6ae}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2401.03206}
+      \field{title}{A Robbins--Monro Sequence That Can Exploit Prior Information For Faster Convergence}
+      \field{year}{2024}
+    \endentry
+    \entry{ng1969table}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a101758243d8d3be36253199075970d4}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Edward\bibnamedelima W},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=2b577ceb8f1d06302782067c6c11ffa7}{%
+           family={Geller},
+           familyi={G\bibinitperiod},
+           given={Murray},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ce6fe7cd13ea6f759eb43068888930c}
+      \strng{fullhash}{5ce6fe7cd13ea6f759eb43068888930c}
+      \strng{bibnamehash}{5ce6fe7cd13ea6f759eb43068888930c}
+      \strng{authorbibnamehash}{5ce6fe7cd13ea6f759eb43068888930c}
+      \strng{authornamehash}{5ce6fe7cd13ea6f759eb43068888930c}
+      \strng{authorfullhash}{5ce6fe7cd13ea6f759eb43068888930c}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Research of the National Bureau of Standards B}
+      \field{number}{1}
+      \field{title}{A table of integrals of the error functions}
+      \field{volume}{73}
+      \field{year}{1969}
+      \field{pages}{1\bibrangedash 20}
+      \range{pages}{20}
+    \endentry
+    \entry{polyak1990new}{article}{}
+      \name{author}{1}{}{%
+        {{hash=83cb78217e5046c7c8c8da6fc9d263df}{%
+           family={Polyak},
+           familyi={P\bibinitperiod},
+           given={Boris\bibnamedelima T},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{83cb78217e5046c7c8c8da6fc9d263df}
+      \strng{fullhash}{83cb78217e5046c7c8c8da6fc9d263df}
+      \strng{bibnamehash}{83cb78217e5046c7c8c8da6fc9d263df}
+      \strng{authorbibnamehash}{83cb78217e5046c7c8c8da6fc9d263df}
+      \strng{authornamehash}{83cb78217e5046c7c8c8da6fc9d263df}
+      \strng{authorfullhash}{83cb78217e5046c7c8c8da6fc9d263df}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Automat. i Telemekh}
+      \field{number}{98-107}
+      \field{title}{New stochastic approximation type procedures}
+      \field{volume}{7}
+      \field{year}{1990}
+      \field{pages}{2}
+      \range{pages}{1}
+    \endentry
+    \entry{robbins1951stochastic}{article}{}
+      \name{author}{2}{}{%
+        {{hash=163566b92b332258782e61e3d217a2bb}{%
+           family={Robbins},
+           familyi={R\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+        {{hash=95751f7f614bc2af42f1a078b3e2ba61}{%
+           family={Monro},
+           familyi={M\bibinitperiod},
+           given={Sutton},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{5d85b58c5cbfcc8fc266cf4f5f6fbdbb}
+      \strng{fullhash}{5d85b58c5cbfcc8fc266cf4f5f6fbdbb}
+      \strng{bibnamehash}{5d85b58c5cbfcc8fc266cf4f5f6fbdbb}
+      \strng{authorbibnamehash}{5d85b58c5cbfcc8fc266cf4f5f6fbdbb}
+      \strng{authornamehash}{5d85b58c5cbfcc8fc266cf4f5f6fbdbb}
+      \strng{authorfullhash}{5d85b58c5cbfcc8fc266cf4f5f6fbdbb}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The annals of mathematical statistics}
+      \field{title}{A stochastic approximation method}
+      \field{year}{1951}
+      \field{pages}{400\bibrangedash 407}
+      \range{pages}{8}
+    \endentry
+    \entry{sacks1958asymptotic}{article}{}
+      \name{author}{1}{}{%
+        {{hash=85877ac80e3df5401239ba28ad5be7a4}{%
+           family={Sacks},
+           familyi={S\bibinitperiod},
+           given={Jerome},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{85877ac80e3df5401239ba28ad5be7a4}
+      \strng{fullhash}{85877ac80e3df5401239ba28ad5be7a4}
+      \strng{bibnamehash}{85877ac80e3df5401239ba28ad5be7a4}
+      \strng{authorbibnamehash}{85877ac80e3df5401239ba28ad5be7a4}
+      \strng{authornamehash}{85877ac80e3df5401239ba28ad5be7a4}
+      \strng{authorfullhash}{85877ac80e3df5401239ba28ad5be7a4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Annals of Mathematical Statistics}
+      \field{number}{2}
+      \field{title}{Asymptotic distribution of stochastic approximation procedures}
+      \field{volume}{29}
+      \field{year}{1958}
+      \field{pages}{373\bibrangedash 405}
+      \range{pages}{33}
+    \endentry
+    \entry{xiong2018efficient}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c0142821f9ff30d3ff52ed156cceb7d0}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Cui},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c192742f19141562ab08b13a0d9cf23a}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Jin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{f1d4bb74d500b40328470f8892662803}
+      \strng{fullhash}{f1d4bb74d500b40328470f8892662803}
+      \strng{bibnamehash}{f1d4bb74d500b40328470f8892662803}
+      \strng{authorbibnamehash}{f1d4bb74d500b40328470f8892662803}
+      \strng{authornamehash}{f1d4bb74d500b40328470f8892662803}
+      \strng{authorfullhash}{f1d4bb74d500b40328470f8892662803}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Statistical Theory and Related Fields}
+      \field{number}{2}
+      \field{title}{Efficient Robbins--Monro procedure for multivariate binary data}
+      \field{volume}{2}
+      \field{year}{2018}
+      \field{pages}{172\bibrangedash 180}
+      \range{pages}{9}
+    \endentry
+    \entry{yazidi2020balanced}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7d8b98903c4a866b97ecad9a1ca678a2}{%
+           family={Yazidi},
+           familyi={Y\bibinitperiod},
+           given={Anis},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5694771da1c39f96d55a93ac15dbb56c}{%
+           family={Abolpour\bibnamedelima Mofrad},
+           familyi={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Asieh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2da5802885fe0ab7c24dd3abde82d76b}{%
+           family={Goodwin},
+           familyi={G\bibinitperiod},
+           given={Morten},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dcc8c8c7a0c36b736d7795667689550c}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={Hugo\bibnamedelima Lewi},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=88f37e908a75733999bdfc7d4108aadf}{%
+           family={Arntzen},
+           familyi={A\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{792af7ed99b6a80b94abecdf4aaf9582}
+      \strng{fullhash}{74a7ef4280cc8419a1b4df585335cd23}
+      \strng{bibnamehash}{792af7ed99b6a80b94abecdf4aaf9582}
+      \strng{authorbibnamehash}{792af7ed99b6a80b94abecdf4aaf9582}
+      \strng{authornamehash}{792af7ed99b6a80b94abecdf4aaf9582}
+      \strng{authorfullhash}{74a7ef4280cc8419a1b4df585335cd23}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognitive Neurodynamics}
+      \field{number}{5}
+      \field{title}{Balanced difficulty task finder: an adaptive recommendation method for learning tasks based on the concept of state of flow}
+      \field{volume}{14}
+      \field{year}{2020}
+      \field{pages}{675\bibrangedash 687}
+      \range{pages}{13}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

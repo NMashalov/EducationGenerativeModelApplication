@@ -31,62 +31,58 @@ $$
 Существенным недостатком такой системы является предположение о равной сложности задач в контрольной работе.
 
 
-Система тестирования IRT была предложена институтом в 1950 году. Она активно используется в международных экзаменах языка
-и делового знания GMAT и TOEFL
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{assets/pedagogic/social/irt.excalidraw.png}
+    \caption{Матрица исходов модели Байесовской оценки на шаге t}
+    \label{irt_function}
+\end{figure}
 
-IRT в отличие от классической теории также учитываюет текущий уровень знаний, что позволяет составлять набор заданий индивидуально.
-Наиболее известным результатом системы является 3-х параметрическая логистическая модель, учитывающая сложность задачи, вероятность угадать и волатильность оценки Одним из ключевых \cite{lord1956measurement}:
+Система тестирования IRT была предложена институтом в 1950 году. Она активно используется в международных экзаменах языка
+и делового знания GMAT и TOEFL.В отличие от классической теории также учитываюет текущий уровень знаний, что позволяет составлять набор заданий индивидуально.
+Наиболее известным результатом системы является 3-х параметрическая логистическая модель \ref{irt_function}, учитывающая сложность задачи, вероятность угадать и волатильность оценки Одним из ключевых \cite{lord1956measurement}:
 \begin{equation}
     p_i(\theta) = c_i + \frac{1-c_i}{1+e^{-a_i(\theta-b_i)}},
 \end{equation}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.5\textwidth]{assets/work/rating/bkt.excalidraw.png}
-    \caption{Матрица исходов модели Байесовской оценки на шаге t}
-    \label{IRT}
-\end{figure}
-
-где коэффициенты \begin{itemize}
-    \item $a_i$
-    \item $b_i$
-    \item $c_i$
+где \begin{itemize}
+    \item $b_i$ - сложность задания
+    \item $a_i$ - характерный масштаб
+    \item $c$ вероятноcnm угадать решение
 \end{itemize}
 
-Альтернативным путем является подход байесовской оценки знания,
-описанный в работе \cite{corbett1994knowledge}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\textwidth]{assets/pedagogic/social/bkt_automata.excalidraw.png}
-    \caption{Матрица исходов модели Байесовской оценки на шаге t}
+    \includegraphics[width=0.5\textwidth]{assets/pedagogic/social/bkt.excalidraw.png}
+    \caption{Эволюция представлений о знаниях учащегося}
     \label{bkt}
 \end{figure}
-Задача такой модели подобрать три ключевых параметра \begin{itemize}
+Альтернативным путем является подход байесовской оценки знания,
+описанный в работе \cite{corbett1994knowledge}.
+Модель учитывает веротяность ошибки и вероятность ошибиться при наличии знания \ref{bkt}: \begin{itemize}
     \item $P(L_0)$ начальные знания в предмете
     \item $P(S) = P(x=0| L_t = 1)$ вероятность просчета при наличи знаний
     \item  $P(G) = P(x=1| L_t = 1)$ вероятность угадать при отсутствии знаний
 \end{itemize}
-
-При их подборе Байесов подход к оценке позволяет обновлять представления о
-степени знаний согласно правилам
-
+Обновление представлений выполняется через Байесов подход согласно правилам:
 \begin{equation}
     \begin{aligned}
         &P(L_t| obs_t=1) = \frac{P(L_t)(1-P(S))}{P(L_t)(1-P(S)) + (1-P(L_t))P(G)} \\
         &P(L_t| obs_t=0) = \frac{P(L_t)P(S)}{P(L_t) P(S) + (1-P(L_t))(1-P(G))}
     \end{aligned}
 \end{equation}
-Предполагается, что вероятность забыть $ P(L_{t+1}=0|L_t=1)=0$
-\begin{equation}
-    P(L_{t+1}) = P(L_t|obs_t) + \left(1 - P(L_t | obs_t)\right) P(T)
-\end{equation}
-Таким, образом тест можно представить в виде марковской цепи обновления представлений о знаниях учащегося \ref{bkt_automata}.
+Отметим, что полученный вывод предполагает, что \begin{itemize}
+    \item вероятность забыть знание равна нулю $ P(L_{t+1}=0|L_t=1)=0$
+    \item $P(L_{t+1}) = P(L_t|obs_t) + \left(1 - P(L_t | obs_t)\right) P(T)$
+\end{itemize}
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{assets/pedagogic/social/bkt_automata.excalidraw.png}
     \caption{Матрица исходов модели Байесовской оценки на шаге t}
     \label{bkt_automata}
 \end{figure}
-#Адаптация идеи для случая IRT \ref{IRT} позволяет учесть влияние сложности задания \cite{bulut2023introduction}:
+Таким, образом тест можно представить в виде марковской цепи обновления представлений о знаниях учащегося \ref{bkt_automata}.
+
+Адаптация для случая IRT \ref{IRT} позволяет учесть влияние сложности задания \cite{bulut2023introduction}:
 \begin{equation}
     P(Y_{ij}=1| \theta_J, a_i,b_i,c_i) =
 \end{equation}

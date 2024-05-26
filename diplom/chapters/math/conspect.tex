@@ -1,18 +1,4 @@
-Задача оптимизации  в общем случае записывается как \cite{nesterov2015universal}
 
-\begin{equation}
-    f(x) = \mathrm{E} f(x,\xi) \rightarrow \min_x,
-\end{equation}
-где двойка $(x,\xi)$ является результатом наблюдения.
-
-
-Пусть $x^*$ - оптимальный параметр.
-
-\texit{Определение} Стохастический градиент 
-
-\begin{equation}
-    \nabla f(x,\xi) = x - 
-\end{equation}
 
 Если $f(x)$ - $\mu$ сильно выпукла и $L$ -k
 
@@ -23,6 +9,8 @@
 \end{equation}
 
 В заданных 
+
+
 
 
 Мажорирует гессиан функции $f$
@@ -45,8 +33,7 @@ $\lambda_{min} = \lambda_1$ и $\lambda_{max} = \lambda_n$:
     x^{k+1} = x^k - h_k \nabla f(x^k, \xi^K)
 \end{equation}
 
-\textit{Определение} \textbf{Усредненным по подвыборке} мощностью $B$ стохастическим градиентом называется 
-$\nabla^B f(x,\xi) = \sum_{j=i}^B \nabla f(x,\xi_i)$.
+
 
 Уточним, что усреднение под выборки выполняется в одной точке $x$.
 
@@ -65,28 +52,7 @@ $\nabla^B f(x,\xi) = \sum_{j=i}^B \nabla f(x,\xi_i)$.
 \end{equation}
 где $\sigma^2_* = \mathrm{E} \|\nabla f(x_0,\xi) \|^2$
 
-Полученный результат говорит об оптимальном размере подвыборки для спуска.
-\begin{equation}
-    \mathrm{E} \frac{\mu}{2} \| x^N - x_0 \|_2^2 \le f(x^N) - f(x_0))\ke 
-\end{equation}
 
-Устойчивость метода при выходе на плато
-Схема Поляка-Руперта-Юдицкого
-\begin{equation}
-    x^{k+1} = x^{k} - h_k \
-\end{equation}
-Шаги $h_k \sim k^{-\alpha}$, $\alpha in (\frac{1}{2},1)$.
-При этом ошибка считается для среднего
-$$
-    \bar{x_n} = \frac{1}{N} \sum_{k=1} x^k
-$$
-\begin{equation}
-    \Sigma = \mathm{E}\left[\nabla f(x_*,\xi)\nabla f(x_*, \xi)^T\right]
-\end{equation}
-Для этого случая имеет сходимость по распределению.
-\begin{equation}
-    (\hat{x}^N - x_*) \rightarrow
-\end{equation}
 Минимизация функции риска
 $$
     \hat{x}_{CRM} = \argmin_x \frac{1}{N} f(x,\xi^k)
