@@ -1,0 +1,38 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[76] biber:340> INFO - === Wed May 29, 2024, 20:32:30
+[95] Biber.pm:418> INFO - Reading 'main.bcf'
+[182] Biber.pm:972> INFO - Found 102 citekeys in bib section 0
+[195] Biber.pm:4383> INFO - Processing section 0
+[206] Biber.pm:4574> INFO - Looking for bibtex file 'ref.bib' for section 0
+[210] bibtex.pm:1713> INFO - LaTeX decoding ...
+[323] bibtex.pm:1518> INFO - Found BibTeX data source 'ref.bib'
+[1049] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1049] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1049] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'ru-RU'
+[1049] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
+[1129] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1183] bbl.pm:757> INFO - Output to main.bbl
+[1184] Biber.pm:130> WARN - Duplicate entry key: 'chomsky2002syntactic' in file 'ref.bib', skipping ...
+[1184] Biber.pm:130> WARN - Duplicate entry key: 'robbins1951stochastic' in file 'ref.bib', skipping ...
+[1184] Biber.pm:130> WARN - Duplicate entry key: 'corbett1994knowledge' in file 'ref.bib', skipping ...
+[1184] Biber.pm:130> WARN - Duplicate entry key: 'devlin2018bert' in file 'ref.bib', skipping ...
+[1184] Biber.pm:130> WARN - Duplicate entry key: 'yazidi2020balanced' in file 'ref.bib', skipping ...
+[1184] Biber.pm:130> WARN - Duplicate entry key: 'robbins1951stochastic' in file 'ref.bib', skipping ...
+[1185] Biber.pm:130> WARN - Duplicate entry key: 'xiong2018efficient' in file 'ref.bib', skipping ...
+[1185] Biber.pm:130> WARN - I didn't find a database entry for 'красулина2007односторонней' (section 0)
+[1185] Biber.pm:130> WARN - I didn't find a database entry for 'monge_vs_kantarovich' (section 0)
+[1185] Biber.pm:130> WARN - I didn't find a database entry for 'stablediffusion' (section 0)
+[1185] Biber.pm:130> WARN - I didn't find a database entry for 'ochreiter1997long' (section 0)
+[1185] Biber.pm:130> WARN - I didn't find a database entry for 'lecun1989handwritten' (section 0)
+[1185] Biber.pm:130> WARN - I didn't find a database entry for 'simonyan2014very' (section 0)
+[1185] Biber.pm:130> WARN - I didn't find a database entry for 'ronneberger2015u' (section 0)
+[1185] Biber.pm:130> WARN - I didn't find a database entry for 'kirillov2023segment' (section 0)
+[1185] Biber.pm:130> WARN - I didn't find a database entry for 'radford2019language' (section 0)
+[1185] Biber.pm:130> WARN - I didn't find a database entry for 'Schutze' (section 0)
+[1185] Biber.pm:130> WARN - I didn't find a database entry for 'NIPS2013_9aa42b31' (section 0)
+[1185] Biber.pm:130> WARN - I didn't find a database entry for 'выготский2014мышлениеw' (section 0)
+[1185] Biber.pm:130> WARN - I didn't find a database entry for 'libmipt' (section 0)
+[1185] Biber.pm:130> WARN - I didn't find a database entry for 'mathedu' (section 0)
+[1185] Biber.pm:130> WARN - I didn't find a database entry for 'ackenheimer2015introduction' (section 0)
+[1185] Biber.pm:132> INFO - WARNINGS: 22
