@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.5.26)  29 MAY 2024 23:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.5.26)  2 JUN 2024 12:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1103,16 +1103,7 @@ LaTeX Warning: Label `opt_transport' multiply defined.
 LaTeX Warning: Label `variation_fp' multiply defined.
 
 
-LaTeX Warning: Label `self_attention' multiply defined.
-
-
 LaTeX Warning: Label `discr_vs_gen' multiply defined.
-
-
-LaTeX Warning: Label `embedding' multiply defined.
-
-
-LaTeX Warning: Label `embedding' multiply defined.
 
 
 LaTeX Warning: Label `train' multiply defined.
@@ -1121,13 +1112,16 @@ LaTeX Warning: Label `train' multiply defined.
 LaTeX Warning: Label `utility' multiply defined.
 
 
+LaTeX Warning: Label `reflection' multiply defined.
+
+
 LaTeX Warning: Label `bkt' multiply defined.
 
 
 LaTeX Warning: Label `annotation' multiply defined.
 
 
-LaTeX Warning: Label `chess' multiply defined.
+LaTeX Warning: Label `annotation' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -1301,7 +1295,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                РІС‹РіРѕС‚СЃРєРёР№2014РјС‹С€Р»РµРЅРёРµw
+(biblatex)                touvron2023llama
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -1413,62 +1407,72 @@ LaTeX Font Warning: Font shape `PU/cmr/m/up' undefined
 \openout5 = `main.toc'.
 
  [2]
-(./chapters/intro.tex [3]) [4]
+(./chapters/intro.tex
+
+LaTeX Warning: Reference `' on page 3 undefined on input line 22.
+
+
+LaTeX Warning: Reference `generative' on page 3 undefined on input line 26.
+
+[3]) [4]
 Р“Р»Р°РІР° 1.
 (./chapters/math/main.tex (./chapters/math/intro.tex)
+Overfull \hbox (0.12962pt too wide) in paragraph at lines 11--3
+\T2A/cmr/m/up/12 ции, от-ве-ча-ю-щей по-треб-но-стям пред-мет-ной по-ста-нов-ки
+. Та-кая функ-ция долж-на быть
+ []
+
 (./chapters/math/optimization/main.tex (./chapters/math/optimization/intro.tex
-<assets/math/optimization/strong_convex.excalidraw.png, id=301, 452.69125pt x 3
+[5
+
+]
+<assets/math/optimization/strong_convex.excalidraw.png, id=313, 452.69125pt x 3
 96.48125pt>
 File: assets/math/optimization/strong_convex.excalidraw.png Graphic file (type 
 png)
 <use assets/math/optimization/strong_convex.excalidraw.png>
 Package pdftex.def Info: assets/math/optimization/strong_convex.excalidraw.png 
- used on input line 23.
+ used on input line 31.
 (pdftex.def)             Requested size: 227.62206pt x 199.35934pt.
-
-[5
-
-])
+ [6 <./assets/math/optimization/strong_convex.excalidraw.png>])
 LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
 3.
- (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmss.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-(./chapters/math/optimization/grad_descent.tex [6 <./assets/math/optimization/s
-trong_convex.excalidraw.png>] [7]
-<assets/math/optimization/stability.excalidraw.png, id=354, 595.22375pt x 345.2
+(./chapters/math/optimization/grad_descent.tex [7]
+<assets/math/optimization/stability.excalidraw.png, id=346, 595.22375pt x 345.2
 9pt>
 File: assets/math/optimization/stability.excalidraw.png Graphic file (type png)
 
 <use assets/math/optimization/stability.excalidraw.png>
 Package pdftex.def Info: assets/math/optimization/stability.excalidraw.png  use
-d on input line 96.
+d on input line 74.
 (pdftex.def)             Requested size: 227.62206pt x 132.044pt.
-)
-(./chapters/math/optimization/distributed.tex
-<assets/math/distributed/distributed.excalidraw.png, id=355, 893.3375pt x 352.3
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8]) (./chapters/math/optimization/distributed.tex [9 <./assets/math/optimizati
+on/stability.excalidraw.png>]
+<assets/math/distributed/distributed.excalidraw.png, id=381, 893.3375pt x 352.3
 1625pt>
 File: assets/math/distributed/distributed.excalidraw.png Graphic file (type png
 )
 <use assets/math/distributed/distributed.excalidraw.png>
 Package pdftex.def Info: assets/math/distributed/distributed.excalidraw.png  us
-ed on input line 7.
+ed on input line 9.
 (pdftex.def)             Requested size: 227.62206pt x 89.76688pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<assets/math/distributed/ring.excalidraw.png, id=356, 1410.26875pt x 778.91pt>
+<assets/math/distributed/ring.excalidraw.png, id=382, 1410.26875pt x 778.91pt>
 File: assets/math/distributed/ring.excalidraw.png Graphic file (type png)
 <use assets/math/distributed/ring.excalidraw.png>
 Package pdftex.def Info: assets/math/distributed/ring.excalidraw.png  used on i
-nput line 21.
+nput line 23.
 (pdftex.def)             Requested size: 227.62206pt x 125.7097pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8 <./assets/math/optimization/stability.excalidraw.png>]
-Overfull \hbox (36.94434pt too wide) in paragraph at lines 45--48
+ [10 <./assets/math/distributed/distributed.excalidraw.png> <./assets/math/dist
+ributed/ring.excalidraw.png>]
+Overfull \hbox (36.94434pt too wide) in paragraph at lines 48--51
 []\T2A/cmr/m/it/12 Определение \T2A/cmr/bx/n/12 Трех-уров-не-вая $\OMS/cmsy/m/n
 /12 l[]$ \T2A/cmr/m/up/12 кван-ти-за-ция за-да-ет-ся опе-ра-то-ром $\OML/cmm/m/
 it/12 Q\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = \OMS/cmsy/m/n/12 
@@ -1476,16 +1480,8 @@ k\OML/cmm/m/it/12 x\OMS/cmsy/m/n/12 k[][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT
 1/cmr/m/n/12 )\OML/cmm/m/it/12 ^^X[]$\T2A/cmr/m/up/12 ,
  []
 
-[9 <./assets/math/distributed/distributed.excalidraw.png> <./assets/math/distri
-buted/ring.excalidraw.png>]
-Overfull \hbox (7.39108pt too wide) in paragraph at lines 59--61
-[]\T2A/cmr/m/it/12 Теорема \T2A/cmr/m/up/12 Ес-ли все функ-ции $\OML/cmm/m/it/1
-2 f[]$ \T2A/cmr/m/up/12 яв-ля-ют-ся $\OML/cmm/m/it/12 ^^V$\T2A/cmr/m/up/12 -сил
-ьно вы-пук-лы-ми и име-ют $\OML/cmm/m/it/12 L$\T2A/cmr/m/up/12 -Липшицев
- []
 
-
-Overfull \hbox (11.4572pt too wide) in paragraph at lines 80--82
+Overfull \hbox (11.4572pt too wide) in paragraph at lines 79--82
 []\T2A/cmr/m/up/12 корректности: $\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 i \OMS/cms
 y/m/n/12 2 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; [] ; n\OMS/cmsy/m/n/12 g\OML/cm
 m/m/it/12 ; [][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 ) = \OML/c
@@ -1494,84 +1490,92 @@ mr/m/n/12 1\OML/cmm/m/it/12 ; [] ; n\OMS/cmsy/m/n/12 g\OML/cmm/m/it/12 ; []\OT1
 /cmr/m/n/12 (\OML/cmm/m/it/12 N[]\OT1/cmr/m/n/12 ) =
  []
 
-) (./chapters/math/optimization/approx.tex [10] [11]
+[11]) (./chapters/math/optimization/approx.tex [12]
 
 LaTeX Warning: Citation 'РєСЂР°СЃСѓР»РёРЅР°2007РѕРґРЅРѕСЃС‚РѕСЂРѕРЅРЅРµР№' on p
-age 12 undefined on input line 65.
+age 13 undefined on input line 57.
 
 
-Overfull \hbox (309.40642pt too wide) in paragraph at lines 65--67
-\T2A/cmr/m/up/12 Подвергается из-ме-не-ни-ям и са-ма схе-ма до-ка-за-тель-ства 
-как в ра-бо-те [[]].
+Overfull \hbox (275.31122pt too wide) in paragraph at lines 57--59
+\T2A/cmr/m/up/12 Современные ис-сле-до-ва-те-ли до-пол-ня-ют ори-ги-наль-ную сх
+е-му [[]],
  []
 
-)) (./chapters/math/discrete/main.tex (./chapters/math/discrete/intro.tex
-[12]) (./chapters/math/optimal_transport.tex
+[13]
+Overfull \hbox (106.59694pt too wide) in paragraph at lines 98--100
+[]\T2A/cmr/m/up/12 Обозначим $\OT1/cmr/bx/n/12 e[] \OT1/cmr/m/n/12 = [][] = \OT
+1/cmr/bx/n/12 y[] \OMS/cmsy/m/n/12 ^^@ []$\T2A/cmr/m/up/12 . Из огра-ни-чен-но-
+сти $\OML/cmm/m/it/12 e[]$ \T2A/cmr/m/up/12 сум-ма $[][] \OT1/cmr/m/n/12 E []$
+ []
 
-LaTeX Warning: Citation 'monge_vs_kantarovich' on page 13 undefined on input li
-ne 23.
+[14] [15]
+File: assets/math/distributed/distributed.excalidraw.png Graphic file (type png
+)
+<use assets/math/distributed/distributed.excalidraw.png>
+Package pdftex.def Info: assets/math/distributed/distributed.excalidraw.png  us
+ed on input line 193.
+(pdftex.def)             Requested size: 227.62206pt x 89.76688pt.
+ [16])) (./chapters/math/discrete/main.tex
+(./chapters/math/discrete/intro.tex) (./chapters/math/optimal_transport.tex
+[17]
+
+LaTeX Warning: Citation 'monge_vs_kantarovich' on page 18 undefined on input li
+ne 27.
 
 
-Overfull \hbox (36.92383pt too wide) in paragraph at lines 23--25
+Overfull \hbox (36.92383pt too wide) in paragraph at lines 27--29
 []\T2A/cmr/m/up/12 Заметим, что по-ста-нов-ка Кан-то-ро-ви-ча яв-ля-ет-ся бо-ле
 е об-щей [[]].
  []
 
-<assets/math/transport/optimal_transport.excalidraw.png, id=446, 1520.68124pt x
+<assets/math/transport/optimal_transport.excalidraw.png, id=485, 1520.68124pt x
  517.935pt>
 File: assets/math/transport/optimal_transport.excalidraw.png Graphic file (type
  png)
 <use assets/math/transport/optimal_transport.excalidraw.png>
 Package pdftex.def Info: assets/math/transport/optimal_transport.excalidraw.png
-  used on input line 28.
+  used on input line 32.
 (pdftex.def)             Requested size: 227.62206pt x 77.52092pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (3.05504pt too wide) in paragraph at lines 33--34
+Overfull \hbox (3.05504pt too wide) in paragraph at lines 38--39
 []\T2A/cmr/m/up/12 Итоговая сто-и-мость оп-ти-маль-но-го транс-порт-но-го пла-н
 а на-зы-ва-ет-ся мет-ри-кой Вас-
  []
 
-[13]
-<assets/math/transport/fokker-plank.excalidraw.png, id=456, 831.105pt x 536.002
+<assets/math/transport/fokker-plank.excalidraw.png, id=486, 831.105pt x 536.002
 5pt>
 File: assets/math/transport/fokker-plank.excalidraw.png Graphic file (type png)
 
 <use assets/math/transport/fokker-plank.excalidraw.png>
 Package pdftex.def Info: assets/math/transport/fokker-plank.excalidraw.png  use
-d on input line 60.
+d on input line 67.
 (pdftex.def)             Requested size: 227.62206pt x 146.8pt.
 
-Overfull \hbox (30.78932pt too wide) in paragraph at lines 65--67
-[]\T2A/cmr/m/up/12 Стохастическое усред-не-ние про-цес-са Лан-же-ве-на опи-сать
- че-рез урав-не-ния Колмогорова-
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14 <./assets/math/transport/optimal_transport.excalidraw.png> <./assets/math/t
-ransport/fokker-plank.excalidraw.png>]
-<assets/math/transport/functional.excalidraw.png, id=469, 639.38875pt x 416.556
+[18 <./assets/math/transport/optimal_transport.excalidraw.png>]
+<assets/math/transport/functional.excalidraw.png, id=498, 639.38875pt x 416.556
 24pt>
 File: assets/math/transport/functional.excalidraw.png Graphic file (type png)
 <use assets/math/transport/functional.excalidraw.png>
 Package pdftex.def Info: assets/math/transport/functional.excalidraw.png  used 
-on input line 80.
+on input line 87.
 (pdftex.def)             Requested size: 227.62206pt x 148.29482pt.
 
-Overfull \hbox (4.27583pt too wide) in paragraph at lines 87--89
+Overfull \hbox (4.27583pt too wide) in paragraph at lines 94--96
 []\T2A/cmr/m/it/12 Определение \T2A/cmr/m/up/12 Схе-ма Йордана-Кинана-Отто (JKO
 ) за-да-ет пра-ви-ло об-нов-ле-ния урав-
  []
 
-)) (./chapters/math/optimal_transport.tex [15 <./assets/math/transport/function
-al.excalidraw.png>]
+[19 <./assets/math/transport/fokker-plank.excalidraw.png> <./assets/math/transp
+ort/functional.excalidraw.png>])) (./chapters/math/optimal_transport.tex
+[20]
 
-LaTeX Warning: Citation 'monge_vs_kantarovich' on page 16 undefined on input li
-ne 23.
+LaTeX Warning: Citation 'monge_vs_kantarovich' on page 21 undefined on input li
+ne 27.
 
 
-Overfull \hbox (36.92383pt too wide) in paragraph at lines 23--25
+Overfull \hbox (36.92383pt too wide) in paragraph at lines 27--29
 []\T2A/cmr/m/up/12 Заметим, что по-ста-нов-ка Кан-то-ро-ви-ча яв-ля-ет-ся бо-ле
 е об-щей [[]].
  []
@@ -1580,74 +1584,71 @@ File: assets/math/transport/optimal_transport.excalidraw.png Graphic file (type
  png)
 <use assets/math/transport/optimal_transport.excalidraw.png>
 Package pdftex.def Info: assets/math/transport/optimal_transport.excalidraw.png
-  used on input line 28.
+  used on input line 32.
 (pdftex.def)             Requested size: 227.62206pt x 77.52092pt.
 
-Overfull \hbox (3.05504pt too wide) in paragraph at lines 33--34
+Overfull \hbox (3.05504pt too wide) in paragraph at lines 38--39
 []\T2A/cmr/m/up/12 Итоговая сто-и-мость оп-ти-маль-но-го транс-порт-но-го пла-н
 а на-зы-ва-ет-ся мет-ри-кой Вас-
  []
 
-[16]
 File: assets/math/transport/fokker-plank.excalidraw.png Graphic file (type png)
 
 <use assets/math/transport/fokker-plank.excalidraw.png>
 Package pdftex.def Info: assets/math/transport/fokker-plank.excalidraw.png  use
-d on input line 60.
+d on input line 67.
 (pdftex.def)             Requested size: 227.62206pt x 146.8pt.
 
-Overfull \hbox (30.78932pt too wide) in paragraph at lines 65--67
-[]\T2A/cmr/m/up/12 Стохастическое усред-не-ние про-цес-са Лан-же-ве-на опи-сать
- че-рез урав-не-ния Колмогорова-
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+[21]
 File: assets/math/transport/functional.excalidraw.png Graphic file (type png)
 <use assets/math/transport/functional.excalidraw.png>
 Package pdftex.def Info: assets/math/transport/functional.excalidraw.png  used 
-on input line 80.
+on input line 87.
 (pdftex.def)             Requested size: 227.62206pt x 148.29482pt.
-[17]
-Overfull \hbox (4.27583pt too wide) in paragraph at lines 87--89
+
+Overfull \hbox (4.27583pt too wide) in paragraph at lines 94--96
 []\T2A/cmr/m/it/12 Определение \T2A/cmr/m/up/12 Схе-ма Йордана-Кинана-Отто (JKO
 ) за-да-ет пра-ви-ло об-нов-ле-ния урав-
  []
 
-)) [18]
+[22])) [23]
 Р“Р»Р°РІР° 2.
 (./chapters/machine_learning/main.tex (./chapters/machine_learning/nn/main.tex
 (./chapters/machine_learning/nn/intro.tex
-<assets/ml/nn/perceptron.excalidraw.png, id=512, 421.575pt x 337.26pt>
+<assets/ml/nn/perceptron.excalidraw.png, id=547, 421.575pt x 337.26pt>
 File: assets/ml/nn/perceptron.excalidraw.png Graphic file (type png)
 <use assets/ml/nn/perceptron.excalidraw.png>
 Package pdftex.def Info: assets/ml/nn/perceptron.excalidraw.png  used on input 
-line 31.
+line 32.
 (pdftex.def)             Requested size: 227.62206pt x 182.10225pt.
 
 
-LaTeX Warning: Citation 'stablediffusion' on page 19 undefined on input line 32
+LaTeX Warning: Citation 'stablediffusion' on page 24 undefined on input line 33
 .
 
 
-LaTeX Warning: Citation 'stablediffusion' on page 19 undefined on input line 32
+LaTeX Warning: Citation 'stablediffusion' on page 24 undefined on input line 33
 .
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<assets/ml/nn/nn.excalidraw.png, id=513, 539.01375pt x 408.52625pt>
+<assets/ml/nn/nn.excalidraw.png, id=548, 539.01375pt x 408.52625pt>
 File: assets/ml/nn/nn.excalidraw.png Graphic file (type png)
 <use assets/ml/nn/nn.excalidraw.png>
-Package pdftex.def Info: assets/ml/nn/nn.excalidraw.png  used on input line 40.
+Package pdftex.def Info: assets/ml/nn/nn.excalidraw.png  used on input line 41.
 
 (pdftex.def)             Requested size: 227.62206pt x 172.52112pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19
+[24
 
 ]
 
-LaTeX Warning: Reference `' on page 20 undefined on input line 55.
+LaTeX Warning: Reference `' on page 25 undefined on input line 57.
 
 ) (./chapters/machine_learning/nn/encod.tex
 Overfull \hbox (3.54665pt too wide) in paragraph at lines 1--2
@@ -1655,9 +1656,9 @@ Overfull \hbox (3.54665pt too wide) in paragraph at lines 1--2
 -на в ма-шин-ном обу-
  []
 
-[20 <./assets/ml/nn/perceptron.excalidraw.png> <./assets/ml/nn/nn.excalidraw.pn
+[25 <./assets/ml/nn/perceptron.excalidraw.png> <./assets/ml/nn/nn.excalidraw.pn
 g>]
-<assets/ml/nn/encoder_decoder.excalidraw.png, id=533, 1072.005pt x 411.5375pt>
+<assets/ml/nn/encoder_decoder.excalidraw.png, id=568, 1072.005pt x 411.5375pt>
 File: assets/ml/nn/encoder_decoder.excalidraw.png Graphic file (type png)
 <use assets/ml/nn/encoder_decoder.excalidraw.png>
 Package pdftex.def Info: assets/ml/nn/encoder_decoder.excalidraw.png  used on i
@@ -1676,35 +1677,35 @@ LaTeX Warning: Command \cyre invalid in math mode on input line 22.
 Missing character: There is no г in font cmr12!
 Missing character: There is no д in font cmr12!
 Missing character: There is no е in font cmr12!
-<assets/ml/nn/rnn.excalidraw.png, id=534, 735.74875pt x 429.605pt>
+<assets/ml/nn/rnn.excalidraw.png, id=569, 735.74875pt x 429.605pt>
 File: assets/ml/nn/rnn.excalidraw.png Graphic file (type png)
 <use assets/ml/nn/rnn.excalidraw.png>
 Package pdftex.def Info: assets/ml/nn/rnn.excalidraw.png  used on input line 31
 .
 (pdftex.def)             Requested size: 227.62206pt x 132.9074pt.
-[21 <./assets/ml/nn/encoder_decoder.excalidraw.png> <./assets/ml/nn/rnn.excalid
+[26 <./assets/ml/nn/encoder_decoder.excalidraw.png> <./assets/ml/nn/rnn.excalid
 raw.png>]
 
-LaTeX Warning: Citation 'ochreiter1997long' on page 22 undefined on input line 
-48.
+LaTeX Warning: Citation 'ochreiter1997long' on page 27 undefined on input line 
+45.
 
-<assets/ml/nn/attention.excalidraw.png, id=549, 1286.8075pt x 313.17pt>
+<assets/ml/nn/attention.excalidraw.png, id=584, 1286.8075pt x 313.17pt>
 File: assets/ml/nn/attention.excalidraw.png Graphic file (type png)
 <use assets/ml/nn/attention.excalidraw.png>
 Package pdftex.def Info: assets/ml/nn/attention.excalidraw.png  used on input l
-ine 65.
+ine 61.
 (pdftex.def)             Requested size: 227.62206pt x 55.39333pt.
 ) (./chapters/machine_learning/nn/attention.tex
-<assets/ml/nn/transformer.excalidraw.png, id=553, 2487.2925pt x 791.95876pt>
+<assets/ml/nn/transformer.excalidraw.png, id=588, 2487.2925pt x 791.95876pt>
 File: assets/ml/nn/transformer.excalidraw.png Graphic file (type png)
 <use assets/ml/nn/transformer.excalidraw.png>
 Package pdftex.def Info: assets/ml/nn/transformer.excalidraw.png  used on input
- line 13.
+ line 11.
 (pdftex.def)             Requested size: 227.62206pt x 72.46956pt.
- [22 <./assets/ml/nn/attention.excalidraw.png>]) (./chapters/machine_learning/n
-n/cv.tex [23 <./assets/ml/nn/transformer.excalidraw.png>]
+ [27 <./assets/ml/nn/attention.excalidraw.png>]) (./chapters/machine_learning/n
+n/cv.tex [28 <./assets/ml/nn/transformer.excalidraw.png>]
 
-LaTeX Warning: Citation 'lecun1989handwritten' on page 24 undefined on input li
+LaTeX Warning: Citation 'lecun1989handwritten' on page 29 undefined on input li
 ne 10.
 
 
@@ -1713,46 +1714,46 @@ Overfull \hbox (8.6849pt too wide) in paragraph at lines 10--14
 A/cmr/m/up/12 (CNN)[[]] пред-
  []
 
-<assets/ml/cv/conv.excalidraw.png, id=582, 1688.3075pt x 717.68124pt>
+<assets/ml/cv/conv.excalidraw.png, id=618, 1688.3075pt x 717.68124pt>
 File: assets/ml/cv/conv.excalidraw.png Graphic file (type png)
 <use assets/ml/cv/conv.excalidraw.png>
 Package pdftex.def Info: assets/ml/cv/conv.excalidraw.png  used on input line 1
 8.
 (pdftex.def)             Requested size: 227.62206pt x 96.75137pt.
-[24 <./assets/ml/cv/conv.excalidraw.png>]
-<assets/ml/cv/vgg16.jpg, id=589, 1506.62875pt x 662.475pt>
+[29 <./assets/ml/cv/conv.excalidraw.png>]
+<assets/ml/cv/vgg16.jpg, id=625, 1506.62875pt x 662.475pt>
 File: assets/ml/cv/vgg16.jpg Graphic file (type jpg)
 <use assets/ml/cv/vgg16.jpg>
 Package pdftex.def Info: assets/ml/cv/vgg16.jpg  used on input line 44.
 (pdftex.def)             Requested size: 227.62206pt x 100.08467pt.
 
 
-LaTeX Warning: Citation 'simonyan2014very' on page 25 undefined on input line 4
+LaTeX Warning: Citation 'simonyan2014very' on page 30 undefined on input line 4
 5.
 
 
-LaTeX Warning: Citation 'simonyan2014very' on page 25 undefined on input line 4
+LaTeX Warning: Citation 'simonyan2014very' on page 30 undefined on input line 4
 5.
 
-<assets/ml/cv/unet.png, id=590, 204.765pt x 101.4189pt>
+<assets/ml/cv/unet.png, id=626, 204.765pt x 101.4189pt>
 File: assets/ml/cv/unet.png Graphic file (type png)
 <use assets/ml/cv/unet.png>
 Package pdftex.def Info: assets/ml/cv/unet.png  used on input line 46.
 (pdftex.def)             Requested size: 227.62206pt x 112.74652pt.
 
-LaTeX Warning: Citation 'ronneberger2015u' on page 25 undefined on input line 4
+LaTeX Warning: Citation 'ronneberger2015u' on page 30 undefined on input line 4
 7.
 
 
-LaTeX Warning: Citation 'ronneberger2015u' on page 25 undefined on input line 4
+LaTeX Warning: Citation 'ronneberger2015u' on page 30 undefined on input line 4
 7.
 
-[25 <./assets/ml/cv/vgg16.jpg> <./assets/ml/cv/unet.png>]
+[30 <./assets/ml/cv/vgg16.jpg> <./assets/ml/cv/unet.png>]
 
-LaTeX Warning: Citation 'kirillov2023segment' on page 26 undefined on input lin
+LaTeX Warning: Citation 'kirillov2023segment' on page 31 undefined on input lin
 e 79.
 
-<assets/ml/adapter/adapter.excalidraw.png, id=599, 1164.35pt x 380.42125pt>
+<assets/ml/adapter/adapter.excalidraw.png, id=634, 1164.35pt x 380.42125pt>
 File: assets/ml/adapter/adapter.excalidraw.png Graphic file (type png)
 <use assets/ml/adapter/adapter.excalidraw.png>
 Package pdftex.def Info: assets/ml/adapter/adapter.excalidraw.png  used on inpu
@@ -1761,45 +1762,67 @@ t line 103.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) [26] (./chapters/machine_learning/generative/main.tex
+)) [31] (./chapters/machine_learning/generative/main.tex
 (./chapters/machine_learning/generative/intro.tex
-<assets/ml/generation/stable_diffusion.png, id=615, 1541.76pt x 764.8575pt>
+<assets/ml/generation/stable_diffusion.png, id=651, 1541.76pt x 764.8575pt>
 File: assets/ml/generation/stable_diffusion.png Graphic file (type png)
 <use assets/ml/generation/stable_diffusion.png>
 Package pdftex.def Info: assets/ml/generation/stable_diffusion.png  used on inp
 ut line 16.
 (pdftex.def)             Requested size: 227.62206pt x 112.9147pt.
- [27 <./assets/ml/adapter/adapter.excalidraw.png> <./assets/ml/generation/stabl
-e_diffusion.png>])
-(./chapters/machine_learning/generative/vae.tex [28])
+ [32 <./assets/ml/adapter/adapter.excalidraw.png> <./assets/ml/generation/stabl
+e_diffusion.png>] [33])
+(./chapters/machine_learning/generative/vae.tex [34]
+<assets/ml/generation/vae.excalidraw.png, id=690, 1065.9825pt x 286.06876pt>
+File: assets/ml/generation/vae.excalidraw.png Graphic file (type png)
+<use assets/ml/generation/vae.excalidraw.png>
+Package pdftex.def Info: assets/ml/generation/vae.excalidraw.png  used on input
+ line 14.
+(pdftex.def)             Requested size: 227.62206pt x 61.08453pt.
+ [35 <./assets/ml/generation/vae.excalidraw.png>]
+<assets/ml/generation/flow.excalidraw.png, id=705, 999.735pt x 346.29375pt>
+File: assets/ml/generation/flow.excalidraw.png Graphic file (type png)
+<use assets/ml/generation/flow.excalidraw.png>
+Package pdftex.def Info: assets/ml/generation/flow.excalidraw.png  used on inpu
+t line 77.
+(pdftex.def)             Requested size: 227.62206pt x 78.84271pt.
+ [36 <./assets/ml/generation/flow.excalidraw.png>]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+123.
+
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+))
 (./chapters/machine_learning/generative/energy_based.tex
 
-LaTeX Warning: Reference `la' on page 29 undefined on input line 20.
+LaTeX Warning: Reference `la' on page 37 undefined on input line 20.
 
-<assets/ml/generation/diffusion_1.excalidraw.png, id=644, 991.705pt x 298.11375
+<assets/ml/generation/diffusion_1.excalidraw.png, id=720, 997.7275pt x 387.4475
 pt>
 File: assets/ml/generation/diffusion_1.excalidraw.png Graphic file (type png)
 <use assets/ml/generation/diffusion_1.excalidraw.png>
 Package pdftex.def Info: assets/ml/generation/diffusion_1.excalidraw.png  used 
 on input line 24.
-(pdftex.def)             Requested size: 227.62206pt x 68.4237pt.
-<assets/ml/generation/diffusion_2.excalidraw.png, id=645, 982.67125pt x 388.451
-25pt>
+(pdftex.def)             Requested size: 227.62206pt x 88.38979pt.
+<assets/ml/generation/diffusion_2.excalidraw.png, id=721, 934.49126pt x 331.237
+5pt>
 File: assets/ml/generation/diffusion_2.excalidraw.png Graphic file (type png)
 <use assets/ml/generation/diffusion_2.excalidraw.png>
 Package pdftex.def Info: assets/ml/generation/diffusion_2.excalidraw.png  used 
 on input line 25.
-(pdftex.def)             Requested size: 227.62206pt x 89.97612pt.
+(pdftex.def)             Requested size: 227.62206pt x 80.68132pt.
 
-LaTeX Warning: Citation 'stablediffusion' on page 29 undefined on input line 26
+LaTeX Warning: Citation 'stablediffusion' on page 37 undefined on input line 26
 .
 
 
-LaTeX Warning: Citation 'stablediffusion' on page 29 undefined on input line 26
+LaTeX Warning: Citation 'stablediffusion' on page 37 undefined on input line 26
 .
 
-[29 <./assets/ml/generation/diffusion_1.excalidraw.png> <./assets/ml/generation
-/diffusion_2.excalidraw.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[37]
 Overfull \hbox (20.7333pt too wide) detected at line 45
 [][]\OML/cmm/m/it/12 q\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 ) = 
 \OML/cmm/m/it/12 q\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 )\OML/cm
@@ -1812,39 +1835,37 @@ mr/m/n/12 (\OML/cmm/m/it/12 x[]\OMS/cmsy/m/n/12 j[]\OML/cmm/m/it/12 x[]; ^^L[]I
 S/cmsy/m/n/12 j[]\OML/cmm/m/it/12 x[]; ^^L[]I\OT1/cmr/m/n/12 )
  []
 
-)) (./chapters/machine_learning/nlp/main.tex
+[38 <./assets/ml/generation/diffusion_1.excalidraw.png> <./assets/ml/generation
+/diffusion_2.excalidraw.png>])) (./chapters/machine_learning/nlp/main.tex
 (./chapters/machine_learning/nlp/intro.tex
-<assets/ml/nlp/taxonomy.excalidraw.png, id=656, 701.62125pt x 275.0275pt>
+<assets/ml/nlp/taxonomy.excalidraw.png, id=747, 1164.35pt x 344.28625pt>
 File: assets/ml/nlp/taxonomy.excalidraw.png Graphic file (type png)
 <use assets/ml/nlp/taxonomy.excalidraw.png>
 Package pdftex.def Info: assets/ml/nlp/taxonomy.excalidraw.png  used on input l
-ine 5.
-(pdftex.def)             Requested size: 227.62206pt x 89.2234pt.
+ine 6.
+(pdftex.def)             Requested size: 227.62206pt x 67.30103pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Citation 'radford2019language' on page 39 undefined on input lin
+e 17.
 
 
-LaTeX Warning: Citation 'radford2019language' on page 30 undefined on input lin
-e 16.
-
-
-Overfull \hbox (35.13306pt too wide) in paragraph at lines 14--17
-\T2A/cmr/m/up/12 ния [[]73[]], при-вед-шая к со-зда-нию боль-ших линг-ви-сти-че
+Overfull \hbox (35.13306pt too wide) in paragraph at lines 15--18
+\T2A/cmr/m/up/12 ния [[]71[]], при-вед-шая к со-зда-нию боль-ших линг-ви-сти-че
 -ских мо-де-лей [[]],
  []
 
-[30]) (./chapters/machine_learning/nlp/formal.tex
-<assets/work/arch/learning.excalidraw.png, id=670, 1176.395pt x 389.455pt>
-File: assets/work/arch/learning.excalidraw.png Graphic file (type png)
-<use assets/work/arch/learning.excalidraw.png>
-Package pdftex.def Info: assets/work/arch/learning.excalidraw.png  used on inpu
-t line 18.
-(pdftex.def)             Requested size: 227.62206pt x 75.35213pt.
- [31 <./assets/ml/nlp/taxonomy.excalidraw.png> <./assets/work/arch/learning.exc
-alidraw.png>] [32])
-(./chapters/machine_learning/nlp/representation.tex [33]
-<assets/ml/nlp/word2vec.excalidraw.png, id=688, 816.04875pt x 643.40375pt>
+) (./chapters/machine_learning/nlp/formal.tex [39 <./assets/ml/nlp/taxonomy.exc
+alidraw.png>]
+<assets/ml/nlp/morph_tree.excalidraw.png, id=758, 310.15875pt x 193.72375pt>
+File: assets/ml/nlp/morph_tree.excalidraw.png Graphic file (type png)
+<use assets/ml/nlp/morph_tree.excalidraw.png>
+Package pdftex.def Info: assets/ml/nlp/morph_tree.excalidraw.png  used on input
+ line 19.
+(pdftex.def)             Requested size: 227.62206pt x 142.17093pt.
+ [40 <./assets/ml/nlp/morph_tree.excalidraw.png>])
+(./chapters/machine_learning/nlp/representation.tex [41]
+<assets/ml/nlp/word2vec.excalidraw.png, id=769, 816.04875pt x 643.40375pt>
 File: assets/ml/nlp/word2vec.excalidraw.png Graphic file (type png)
 <use assets/ml/nlp/word2vec.excalidraw.png>
 Package pdftex.def Info: assets/ml/nlp/word2vec.excalidraw.png  used on input l
@@ -1852,67 +1873,81 @@ ine 21.
 (pdftex.def)             Requested size: 227.62206pt x 179.46458pt.
 
 
-LaTeX Warning: Citation 'Schutze' on page 34 undefined on input line 26.
+LaTeX Warning: Citation 'Schutze' on page 42 undefined on input line 26.
 
 
-LaTeX Warning: Citation 'NIPS2013_9aa42b31' on page 34 undefined on input line 
+LaTeX Warning: Citation 'NIPS2013_9aa42b31' on page 42 undefined on input line 
 27.
 
-<assets/ml/nlp/vector.excalidraw.png, id=689, 643.40375pt x 342.27875pt>
+<assets/ml/nlp/vector.excalidraw.png, id=770, 643.40375pt x 342.27875pt>
 File: assets/ml/nlp/vector.excalidraw.png Graphic file (type png)
 <use assets/ml/nlp/vector.excalidraw.png>
 Package pdftex.def Info: assets/ml/nlp/vector.excalidraw.png  used on input lin
 e 36.
 (pdftex.def)             Requested size: 227.62206pt x 121.08936pt.
-<assets/ml/nlp/bert.excalidraw.png, id=691, 864.22874pt x 681.54625pt>
+<assets/ml/nlp/bert.excalidraw.png, id=772, 864.22874pt x 681.54625pt>
 File: assets/ml/nlp/bert.excalidraw.png Graphic file (type png)
 <use assets/ml/nlp/bert.excalidraw.png>
 Package pdftex.def Info: assets/ml/nlp/bert.excalidraw.png  used on input line 
 44.
 (pdftex.def)             Requested size: 227.62206pt x 179.50655pt.
-[34 <./assets/ml/nlp/word2vec.excalidraw.png> <./assets/ml/nlp/vector.excalidra
-w.png>]) (./chapters/machine_learning/nlp/llm.tex
-Overfull \hbox (0.93623pt too wide) in paragraph at lines 1--3
-[]\T2A/cmr/m/up/12 Механизм вни-ма-ния (attention) в ге-не-ра-тив-ном мо-де-ли-
-ро-ва-нии есте-ствен-но-го язы-
- []
-
-
-Overfull \hbox (3.3955pt too wide) in paragraph at lines 6--9
-[]\T2A/cmr/m/up/12 Основой со-вре-мен-но-го ас-си-стен-та яв-ля-ет-ся боль-шая 
-язы-ко-ва мо-дель. Тер-мин боль-
- []
-
-File: assets/work/arch/learning.excalidraw.png Graphic file (type png)
-<use assets/work/arch/learning.excalidraw.png>
-Package pdftex.def Info: assets/work/arch/learning.excalidraw.png  used on inpu
-t line 17.
-(pdftex.def)             Requested size: 227.62206pt x 75.35213pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[35 <./assets/ml/nlp/bert.excalidraw.png>]
-<assets/work/arch/instruction.excalidraw.png, id=715, 648.4225pt x 391.4625pt>
+[42 <./assets/ml/nlp/word2vec.excalidraw.png> <./assets/ml/nlp/vector.excalidra
+w.png>]) (./chapters/machine_learning/nlp/llm.tex
+<assets/ml/nlp/gpt.excalidraw.png, id=784, 623.32875pt x 470.75874pt>
+File: assets/ml/nlp/gpt.excalidraw.png Graphic file (type png)
+<use assets/ml/nlp/gpt.excalidraw.png>
+Package pdftex.def Info: assets/ml/nlp/gpt.excalidraw.png  used on input line 1
+2.
+(pdftex.def)             Requested size: 227.62206pt x 171.90811pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<assets/work/arch/learning.excalidraw.png, id=785, 1171.37625pt x 389.455pt>
+File: assets/work/arch/learning.excalidraw.png Graphic file (type png)
+<use assets/work/arch/learning.excalidraw.png>
+Package pdftex.def Info: assets/work/arch/learning.excalidraw.png  used on inpu
+t line 24.
+(pdftex.def)             Requested size: 227.62206pt x 75.67897pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation 'touvron2023llama' on page 43 undefined on input line 3
+2.
+
+
+Overfull \hbox (33.08102pt too wide) in paragraph at lines 29--33
+\T2A/cmr/m/up/12 ста-точ-ным ре-сур-сом вы-кла-ды-ва-ют свои мо-де-ли в об-щий 
+до-ступ [[]30[]][[]31[]][[]] 
+ []
+
+[43 <./assets/ml/nlp/bert.excalidraw.png>]
+<assets/work/arch/instruction.excalidraw.png, id=799, 648.4225pt x 391.4625pt>
 File: assets/work/arch/instruction.excalidraw.png Graphic file (type png)
 <use assets/work/arch/instruction.excalidraw.png>
 Package pdftex.def Info: assets/work/arch/instruction.excalidraw.png  used on i
-nput line 36.
+nput line 43.
 (pdftex.def)             Requested size: 227.62206pt x 137.4201pt.
-
-Overfull \hbox (15.0474pt too wide) in paragraph at lines 53--54
+ [44 <./assets/ml/nlp/gpt.excalidraw.png> <./assets/work/arch/learning.excalidr
+aw.png> <./assets/work/arch/instruction.excalidraw.png>]
+Overfull \hbox (15.0474pt too wide) in paragraph at lines 60--61
 []\T2A/cmr/m/up/12 обращения к ин-фор-ма-ци-он-ным си-сте-мам (RAG - retreival 
-augmented generation)[[]46[]] 
+augmented generation)[[]43[]] 
  []
 
-))) [36 <./assets/work/arch/instruction.excalidraw.png>]
+))) [45]
 Р“Р»Р°РІР° 3.
 (./chapters/pedagogic_method/main.tex (./chapters/pedagogic_method/intro.tex)
 (./chapters/pedagogic_method/social_choice/main.tex
-(./chapters/pedagogic_method/social_choice/intro.tex [37
+(./chapters/pedagogic_method/social_choice/intro.tex) [46
 
-])
+]
 (./chapters/pedagogic_method/social_choice/utility.tex
-<assets/pedagogic/social/dilemma.excalidraw.png, id=736, 789.95125pt x 569.1262
+<assets/pedagogic/social/dilemma.excalidraw.png, id=826, 789.95125pt x 569.1262
 5pt>
 File: assets/pedagogic/social/dilemma.excalidraw.png Graphic file (type png)
 <use assets/pedagogic/social/dilemma.excalidraw.png>
@@ -1920,15 +1955,15 @@ Package pdftex.def Info: assets/pedagogic/social/dilemma.excalidraw.png  used o
 n input line 17.
 (pdftex.def)             Requested size: 227.62206pt x 163.9916pt.
 )
-(./chapters/pedagogic_method/social_choice/mechanism.tex [38 <./assets/pedagogi
+(./chapters/pedagogic_method/social_choice/mechanism.tex [47 <./assets/pedagogi
 c/social/dilemma.excalidraw.png>]
 File: assets/pedagogic/social/dilemma.excalidraw.png Graphic file (type png)
 <use assets/pedagogic/social/dilemma.excalidraw.png>
 Package pdftex.def Info: assets/pedagogic/social/dilemma.excalidraw.png  used o
 n input line 14.
 (pdftex.def)             Requested size: 227.62206pt x 163.9916pt.
- [39]
-<assets/pedagogic/social/mech.excalidraw.png, id=750, 503.8825pt x 411.5375pt>
+ [48]
+<assets/pedagogic/social/mech.excalidraw.png, id=840, 503.8825pt x 411.5375pt>
 File: assets/pedagogic/social/mech.excalidraw.png Graphic file (type png)
 <use assets/pedagogic/social/mech.excalidraw.png>
 Package pdftex.def Info: assets/pedagogic/social/mech.excalidraw.png  used on i
@@ -1943,258 +1978,200 @@ nput line 72.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40 <./assets/pedagogic/social/mech.excalidraw.png>] [41])
+[49 <./assets/pedagogic/social/mech.excalidraw.png>] [50])
 (./chapters/pedagogic_method/social_choice/badge.tex
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-5.
-
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-<assets/pedagogic/social/badge.excalidraw.png, id=778, 1030.85126pt x 246.9225p
+<assets/pedagogic/social/badge.excalidraw.png, id=867, 1030.85126pt x 246.9225p
 t>
 File: assets/pedagogic/social/badge.excalidraw.png Graphic file (type png)
 <use assets/pedagogic/social/badge.excalidraw.png>
 Package pdftex.def Info: assets/pedagogic/social/badge.excalidraw.png  used on 
 input line 14.
 (pdftex.def)             Requested size: 227.62206pt x 54.5228pt.
- [42 <./assets/pedagogic/social/badge.excalidraw.png>]))
-(./chapters/pedagogic_method/theory/main.tex
+ [51 <./assets/pedagogic/social/badge.excalidraw.png>])) (./chapters/pedagogic_
+method/theory/main.tex
 (./chapters/pedagogic_method/theory/intro.tex)
-(./chapters/pedagogic_method/theory/didactic.tex
-Overfull \hbox (92.72873pt too wide) in paragraph at lines 7--24
-[][] 
+(./chapters/pedagogic_method/theory/methods.tex
+Overfull \hbox (92.72873pt too wide) in paragraph at lines 18--35
+ [][] 
  []
 
-[43]
-Overfull \hbox (74.35579pt too wide) in paragraph at lines 39--47
+[52]
+Overfull \hbox (74.35579pt too wide) in paragraph at lines 43--51
 []\T2A/cmr/m/up/12 Противопоставленным ди-дак-ти-че-ско-му ме-то-ду обу-че-ния 
 яв-ля-ет-ся проблемно-ориентированный
  []
 
-
-Overfull \hbox (3.96129pt too wide) in paragraph at lines 54--56
-[]\T2A/cmr/m/it/12 Определение \T2A/cmr/m/up/12 Практико-ориентированный под-хо
-д под-ра-зу-ме-ва-ет при-об-ре-те-ние зна-
- []
-
-<assets/pedagogic/psy/colb.excalidraw.png, id=806, 661.47125pt x 475.7775pt>
-File: assets/pedagogic/psy/colb.excalidraw.png Graphic file (type png)
-<use assets/pedagogic/psy/colb.excalidraw.png>
-Package pdftex.def Info: assets/pedagogic/psy/colb.excalidraw.png  used on inpu
-t line 66.
-(pdftex.def)             Requested size: 227.62206pt x 163.71507pt.
-[44 <./assets/pedagogic/psy/colb.excalidraw.png>]
-<assets/pedagogic/psy/reflection.excalidraw.png, id=816, 591.20876pt x 359.3425
-pt>
-File: assets/pedagogic/psy/reflection.excalidraw.png Graphic file (type png)
-<use assets/pedagogic/psy/reflection.excalidraw.png>
-Package pdftex.def Info: assets/pedagogic/psy/reflection.excalidraw.png  used o
-n input line 88.
-(pdftex.def)             Requested size: 227.62206pt x 138.35002pt.
- [45 <./assets/pedagogic/psy/reflection.excalidraw.png>]) (./chapters/pedagogic
-_method/theory/order.tex
-<assets/pedagogic/psy/piage.excalidraw.png, id=827, 706.64pt x 522.95375pt>
+) (./chapters/pedagogic_method/theory/order.tex [53]
+<assets/pedagogic/psy/piage.excalidraw.png, id=904, 706.64pt x 522.95375pt>
 File: assets/pedagogic/psy/piage.excalidraw.png Graphic file (type png)
 <use assets/pedagogic/psy/piage.excalidraw.png>
 Package pdftex.def Info: assets/pedagogic/psy/piage.excalidraw.png  used on inp
-ut line 10.
+ut line 24.
 (pdftex.def)             Requested size: 227.62206pt x 168.4498pt.
-<assets/pedagogic/psy/proximal_growth.excalidraw.png, id=830, 676.5275pt x 606.
+<assets/pedagogic/psy/proximal_growth.excalidraw.png, id=907, 676.5275pt x 606.
 265pt>
 File: assets/pedagogic/psy/proximal_growth.excalidraw.png Graphic file (type pn
 g)
 <use assets/pedagogic/psy/proximal_growth.excalidraw.png>
 Package pdftex.def Info: assets/pedagogic/psy/proximal_growth.excalidraw.png  u
-sed on input line 20.
+sed on input line 32.
 (pdftex.def)             Requested size: 227.62206pt x 203.98117pt.
+ [54 <./assets/pedagogic/psy/piage.excalidraw.png> <./assets/pedagogic/psy/prox
+imal_growth.excalidraw.png>]
+<assets/pedagogic/psy/reflection.excalidraw.png, id=919, 591.20876pt x 359.3425
+pt>
+File: assets/pedagogic/psy/reflection.excalidraw.png Graphic file (type png)
+<use assets/pedagogic/psy/reflection.excalidraw.png>
+Package pdftex.def Info: assets/pedagogic/psy/reflection.excalidraw.png  used o
+n input line 60.
+(pdftex.def)             Requested size: 227.62206pt x 138.35002pt.
+<assets/pedagogic/psy/flow.excalidraw.png, id=924, 577.15625pt x 387.4475pt>
+File: assets/pedagogic/psy/flow.excalidraw.png Graphic file (type png)
+<use assets/pedagogic/psy/flow.excalidraw.png>
+Package pdftex.def Info: assets/pedagogic/psy/flow.excalidraw.png  used on inpu
+t line 81.
+(pdftex.def)             Requested size: 227.62206pt x 152.80655pt.
+ [55 <./assets/pedagogic/psy/reflection.excalidraw.png>] [56 <./assets/pedagogi
+c/psy/flow.excalidraw.png>])) (./chapters/pedagogic_method/task/main.tex
+(./chapters/pedagogic_method/task/intro.tex)
+(./chapters/pedagogic_method/task/test.tex
+<assets/pedagogic/social/its.excalidraw.png, id=946, 720.6925pt x 669.50125pt>
+File: assets/pedagogic/social/its.excalidraw.png Graphic file (type png)
+<use assets/pedagogic/social/its.excalidraw.png>
+Package pdftex.def Info: assets/pedagogic/social/its.excalidraw.png  used on in
+put line 20.
+(pdftex.def)             Requested size: 227.62206pt x 211.44566pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation 'РІС‹РіРѕС‚СЃРєРёР№2014РјС‹С€Р»РµРЅРёРµw' on page 46 un
-defined on input line 35.
-
-
-Overfull \hbox (116.52852pt too wide) in paragraph at lines 34--36
-\T2A/cmr/m/up/12 чем Вы-гот-ским в его тео-рии со-ци-о-куль-ту-ры [[]].
- []
-
-[46 <./assets/pedagogic/psy/piage.excalidraw.png>]
-<assets/pedagogic/psy/vpf.excalidraw.png, id=840, 656.4525pt x 429.605pt>
-File: assets/pedagogic/psy/vpf.excalidraw.png Graphic file (type png)
-<use assets/pedagogic/psy/vpf.excalidraw.png>
-Package pdftex.def Info: assets/pedagogic/psy/vpf.excalidraw.png  used on input
- line 42.
-(pdftex.def)             Requested size: 227.62206pt x 148.96117pt.
- [47 <./assets/pedagogic/psy/proximal_growth.excalidraw.png> <./assets/pedagogi
-c/psy/vpf.excalidraw.png>]
-Overfull \hbox (4.36516pt too wide) in paragraph at lines 77--78
-[]\T2A/cmr/m/up/12 Универсальная грам-ма-ти-ка - об-ще-го на-бо-ра грам-ма-ти-ч
-е-ских прин-ци-пов и струк-
- []
-
-)) (./chapters/pedagogic_method/task/main.tex
-(./chapters/pedagogic_method/task/intro.tex)
-(./chapters/pedagogic_method/task/organization.tex [48]
-<assets/pedagogic/social/its.excalidraw.png, id=865, 720.6925pt x 669.50125pt>
-File: assets/pedagogic/social/its.excalidraw.png Graphic file (type png)
-<use assets/pedagogic/social/its.excalidraw.png>
-Package pdftex.def Info: assets/pedagogic/social/its.excalidraw.png  used on in
-put line 28.
-(pdftex.def)             Requested size: 227.62206pt x 211.44566pt.
-) [49 <./assets/pedagogic/social/its.excalidraw.png>] (./chapters/pedagogic_met
-hod/task/test.tex
-<assets/pedagogic/social/irt.excalidraw.png, id=878, 680.5425pt x 442.65375pt>
+[57]
+<assets/pedagogic/social/irt.excalidraw.png, id=954, 680.5425pt x 442.65375pt>
 File: assets/pedagogic/social/irt.excalidraw.png Graphic file (type png)
 <use assets/pedagogic/social/irt.excalidraw.png>
 Package pdftex.def Info: assets/pedagogic/social/irt.excalidraw.png  used on in
-put line 36.
+put line 53.
 (pdftex.def)             Requested size: 227.62206pt x 148.0552pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50]
-<assets/pedagogic/social/bkt.excalidraw.png, id=886, 600.2425pt x 456.70625pt>
+[58 <./assets/pedagogic/social/its.excalidraw.png>]
+<assets/pedagogic/social/bkt.excalidraw.png, id=967, 600.2425pt x 456.70625pt>
 File: assets/pedagogic/social/bkt.excalidraw.png Graphic file (type png)
 <use assets/pedagogic/social/bkt.excalidraw.png>
 Package pdftex.def Info: assets/pedagogic/social/bkt.excalidraw.png  used on in
-put line 55.
+put line 72.
 (pdftex.def)             Requested size: 227.62206pt x 173.18779pt.
- [51 <./assets/pedagogic/social/irt.excalidraw.png> <./assets/pedagogic/social/
+ [59 <./assets/pedagogic/social/irt.excalidraw.png> <./assets/pedagogic/social/
 bkt.excalidraw.png>]
-<assets/pedagogic/social/bkt_automata.excalidraw.png, id=900, 994.71625pt x 358
+<assets/pedagogic/social/bkt_automata.excalidraw.png, id=979, 994.71625pt x 358
 .33875pt>
 File: assets/pedagogic/social/bkt_automata.excalidraw.png Graphic file (type pn
 g)
 <use assets/pedagogic/social/bkt_automata.excalidraw.png>
 Package pdftex.def Info: assets/pedagogic/social/bkt_automata.excalidraw.png  u
-sed on input line 79.
+sed on input line 96.
 (pdftex.def)             Requested size: 227.62206pt x 81.99515pt.
 
 
-LaTeX Warning: Reference `IRT' on page 52 undefined on input line 85.
+LaTeX Warning: Reference `IRT' on page 60 undefined on input line 102.
 
-))) [52 <./assets/pedagogic/social/bkt_automata.excalidraw.png>]
+))) [60 <./assets/pedagogic/social/bkt_automata.excalidraw.png>]
 Р“Р»Р°РІР° 4.
 (./chapters/work/main.tex (./chapters/work/intro.tex)
-(./chapters/work/dataset/main.tex (./chapters/work/dataset/intro.tex
-Overfull \hbox (32.88744pt too wide) in paragraph at lines 11--11
+(./chapters/work/dataset/main.tex (./chapters/work/dataset/intro.tex [61
+
+]
+Overfull \hbox (32.88744pt too wide) in paragraph at lines 18--18
 [][][][]$\T2A/cmtt/m/n/10 https : / / github . com / NMashalov / Generative-[]m
 odeling-[]appliance-[]for-[]creating-[]educational-[]tasks$[]
  []
 
-) (./chapters/work/dataset/labeling.tex [53
-
-]) (./chapters/work/dataset/ocr.tex
-[54]
-Overfull \hbox (1.26254pt too wide) in paragraph at lines 22--31
+) (./chapters/work/dataset/labeling.tex
+<assets/work/dataset/kirik_labeling.png, id=1002, 248.127pt x 364.9635pt>
+File: assets/work/dataset/kirik_labeling.png Graphic file (type png)
+<use assets/work/dataset/kirik_labeling.png>
+Package pdftex.def Info: assets/work/dataset/kirik_labeling.png  used on input 
+line 14.
+(pdftex.def)             Requested size: 227.62206pt x 334.8015pt.
+) (./chapters/work/dataset/ocr.tex
+[62 <./assets/work/dataset/kirik_labeling.png>]
+Overfull \hbox (1.26254pt too wide) in paragraph at lines 18--27
 []\T2A/cmr/m/up/12 К со-жа-ле-нию, до-ступ-ные от-кры-тые ре-ше-ния ли-бо не по
 д-дер-жи-ва-ют рус-ский язык,
  []
 
 
-LaTeX Warning: Citation 'libmipt' on page 55 undefined on input line 32.
+LaTeX Warning: Citation 'libmipt' on page 63 undefined on input line 28.
 
 
-LaTeX Warning: Citation 'mathedu' on page 55 undefined on input line 32.
+LaTeX Warning: Citation 'mathedu' on page 63 undefined on input line 28.
 
 
-Overfull \hbox (43.82835pt too wide) in paragraph at lines 32--34
+Overfull \hbox (43.82835pt too wide) in paragraph at lines 28--30
 []\T2A/cmr/m/up/12 Данные за-дач бы-ли со-бра-ны из от-кры-тых пе-да-го-ги-че-с
 ких ис-точ-ни-ков [[]][[]]
  []
 
 
-Overfull \hbox (3.70776pt too wide) in paragraph at lines 35--38
+Overfull \hbox (3.70776pt too wide) in paragraph at lines 31--34
 []\T2A/cmr/m/up/12 Распознание тек-ста по изоб-ра-же-нию вы-пол-ня-ет-ся ней-ро
 -се-тью ар-хи-тек-ту-ры Nougat
  []
 
-[55]
-<assets/work/dataset/kirik_labeling.png, id=956, 248.127pt x 364.9635pt>
+[63]
 File: assets/work/dataset/kirik_labeling.png Graphic file (type png)
 <use assets/work/dataset/kirik_labeling.png>
 Package pdftex.def Info: assets/work/dataset/kirik_labeling.png  used on input 
-line 75.
+line 71.
 (pdftex.def)             Requested size: 227.62206pt x 334.8015pt.
 
-Overfull \hbox (137.85008pt too wide) in paragraph at lines 83--92
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (137.85008pt too wide) in paragraph at lines 79--88
  [] 
  []
 
-<assets/work/dataset/saga.excalidraw.png, id=957, 1037.8775pt x 393.47pt>
+<assets/work/dataset/saga.excalidraw.png, id=1030, 1037.8775pt x 393.47pt>
 File: assets/work/dataset/saga.excalidraw.png Graphic file (type png)
 <use assets/work/dataset/saga.excalidraw.png>
 Package pdftex.def Info: assets/work/dataset/saga.excalidraw.png  used on input
- line 96.
+ line 95.
 (pdftex.def)             Requested size: 227.62206pt x 86.29349pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) (./chapters/work/web/main.tex (./chapters/work/web/intro.tex [56 <./assets/w
-ork/dataset/kirik_labeling.png>]) (./chapters/work/web/arch.tex [57 <./assets/w
-ork/dataset/saga.excalidraw.png>]
-<assets/work/arch/detox.excalidraw.png, id=971, 976.64874pt x 662.475pt>
+)) (./chapters/work/web/main.tex (./chapters/work/web/intro.tex [64] [65 <./ass
+ets/work/dataset/saga.excalidraw.png>]) (./chapters/work/web/arch.tex
+<assets/work/arch/detox.excalidraw.png, id=1049, 976.64874pt x 662.475pt>
 File: assets/work/arch/detox.excalidraw.png Graphic file (type png)
 <use assets/work/arch/detox.excalidraw.png>
 Package pdftex.def Info: assets/work/arch/detox.excalidraw.png  used on input l
 ine 22.
 (pdftex.def)             Requested size: 227.62206pt x 154.39786pt.
-<assets/work/arch/recommendation.excalidraw.png, id=974, 549.05125pt x 303.1325
-pt>
-File: assets/work/arch/recommendation.excalidraw.png Graphic file (type png)
-<use assets/work/arch/recommendation.excalidraw.png>
-Package pdftex.def Info: assets/work/arch/recommendation.excalidraw.png  used o
-n input line 32.
-(pdftex.def)             Requested size: 227.62206pt x 125.66812pt.
-) (./chapters/work/web/web.tex [58 <./assets/work/arch/detox.excalidraw.png> <.
-/assets/work/arch/recommendation.excalidraw.png>]
-
-LaTeX Warning: Citation 'ackenheimer2015introduction' on page 59 undefined on i
-nput line 16.
-
-)) (./chapters/work/games/main.tex (./chapters/work/games/intro.tex)
-(./chapters/work/games/game.tex
-<assets/work/games/llama-chess.excalidraw.png, id=994, 862.22125pt x 443.6575pt
->
-File: assets/work/games/llama-chess.excalidraw.png Graphic file (type png)
-<use assets/work/games/llama-chess.excalidraw.png>
-Package pdftex.def Info: assets/work/games/llama-chess.excalidraw.png  used on 
-input line 9.
-(pdftex.def)             Requested size: 227.62206pt x 117.12187pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[59]
-Overfull \hbox (10.88994pt too wide) in paragraph at lines 32--33
-[]\T2A/cmr/m/up/12 Модель до-пол-ни-тель-но снаб-же-на филь-тром цен-зу-ры, поз
--во-ля-ю-щей из-бе-гать неэтич-
- []
+[66]) (./chapters/work/web/web.tex
+<assets/work/games/interface.png, id=1061, 566.71725pt x 336.0555pt>
+File: assets/work/games/interface.png Graphic file (type png)
+<use assets/work/games/interface.png>
+Package pdftex.def Info: assets/work/games/interface.png  used on input line 9.
 
-<assets/work/games/interface.excalidraw.png, id=1012, 792.9625pt x 376.40625pt>
+(pdftex.def)             Requested size: 227.62206pt x 134.97874pt.
+ [67 <./assets/work/arch/detox.excalidraw.png> <./assets/work/games/interface.p
+ng>]
 
-File: assets/work/games/interface.excalidraw.png Graphic file (type png)
-<use assets/work/games/interface.excalidraw.png>
-Package pdftex.def Info: assets/work/games/interface.excalidraw.png  used on in
-put line 36.
-(pdftex.def)             Requested size: 227.62206pt x 108.04651pt.
-<assets/work/games/achieve.png, id=1013, 765.45975pt x 307.74976pt>
-File: assets/work/games/achieve.png Graphic file (type png)
-<use assets/work/games/achieve.png>
-Package pdftex.def Info: assets/work/games/achieve.png  used on input line 55.
-(pdftex.def)             Requested size: 227.62206pt x 91.51324pt.
+LaTeX Warning: Citation 'ackenheimer2015introduction' on page 68 undefined on i
+nput line 24.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)) (./chapters/work/rating/main.tex (./chapters/work/rating/intro.tex [60 <./as
-sets/work/games/llama-chess.excalidraw.png> <./assets/work/games/interface.exca
-lidraw.png>]) (./chapters/work/rating/ranking.tex [61 <./assets/work/games/achi
-eve.png>]
-<assets/work/rating/dispersion_reduction.png, id=1041, 607.068pt x 384.2355pt>
+)) (./chapters/work/rating/main.tex (./chapters/work/rating/intro.tex)
+(./chapters/work/rating/ranking.tex [68]
+<assets/work/rating/dispersion_reduction.png, id=1090, 607.068pt x 384.2355pt>
 File: assets/work/rating/dispersion_reduction.png Graphic file (type png)
 <use assets/work/rating/dispersion_reduction.png>
 Package pdftex.def Info: assets/work/rating/dispersion_reduction.png  used on i
@@ -2207,7 +2184,11 @@ Overfull \hbox (11.76314pt too wide) in paragraph at lines 52--53
 \OT1/cmr/m/n/12 ) =
  []
 
-[62 <./assets/work/rating/dispersion_reduction.png>] [63]
+[69 <./assets/work/rating/dispersion_reduction.png>]
+
+LaTeX Warning: Reference `ino' on page 70 undefined on input line 59.
+
+[70]
 Overfull \hbox (18.71117pt too wide) detected at line 135
 [][][][]
  []
@@ -2220,26 +2201,26 @@ cmr/m/n/12 (\OML/cmm/m/it/12 ; ^^L; d[]; ^^M[]\OT1/cmr/m/n/12 )$ \T2A/cmr/m/up
 m/it/12 ; ^^L; d[]; ^^M[]\OT1/cmr/m/n/12 ) =
  []
 
-[64]
+[71]
 Underfull \hbox (badness 10000) detected at line 151
  []$[]  [][]$ [][][]  
  []
 
-[65]) (./chapters/work/rating/model.tex
-<assets/work/rating/logistic.png, id=1107, 722.7pt x 505.89pt>
+[72]) (./chapters/work/rating/model.tex
+<assets/work/rating/logistic.png, id=1157, 722.7pt x 505.89pt>
 File: assets/work/rating/logistic.png Graphic file (type png)
 <use assets/work/rating/logistic.png>
 Package pdftex.def Info: assets/work/rating/logistic.png  used on input line 8.
 
 (pdftex.def)             Requested size: 364.19667pt x 254.93593pt.
- [66 <./assets/work/rating/logistic.png>]
-<assets/work/rating/1/result.png, id=1119, 891.0891pt x 359.9046pt>
+ [73 <./assets/work/rating/logistic.png>]
+<assets/work/rating/1/result.png, id=1170, 891.0891pt x 359.9046pt>
 File: assets/work/rating/1/result.png Graphic file (type png)
 <use assets/work/rating/1/result.png>
 Package pdftex.def Info: assets/work/rating/1/result.png  used on input line 32
 .
 (pdftex.def)             Requested size: 455.24411pt x 183.87292pt.
-<assets/work/rating/1/sensitivity.png, id=1121, 1084.05pt x 361.35pt>
+<assets/work/rating/1/sensitivity.png, id=1172, 1084.05pt x 361.35pt>
 File: assets/work/rating/1/sensitivity.png Graphic file (type png)
 <use assets/work/rating/1/sensitivity.png>
 Package pdftex.def Info: assets/work/rating/1/sensitivity.png  used on input li
@@ -2269,14 +2250,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 58.
 
-<assets/work/rating/2/comparison_analysis.png, id=1123, 1084.05pt x 361.35pt>
+<assets/work/rating/2/comparison_analysis.png, id=1174, 1084.05pt x 361.35pt>
 File: assets/work/rating/2/comparison_analysis.png Graphic file (type png)
 <use assets/work/rating/2/comparison_analysis.png>
 Package pdftex.def Info: assets/work/rating/2/comparison_analysis.png  used on 
 input line 65.
 (pdftex.def)             Requested size: 455.24411pt x 151.74942pt.
-[67 <./assets/work/rating/1/result.png>]
-<assets/work/rating/3/slop_affect.png, id=1135, 1084.05pt x 361.35pt>
+[74 <./assets/work/rating/1/result.png>]
+<assets/work/rating/3/slop_affect.png, id=1186, 1084.05pt x 361.35pt>
 File: assets/work/rating/3/slop_affect.png Graphic file (type png)
 <use assets/work/rating/3/slop_affect.png>
 Package pdftex.def Info: assets/work/rating/3/slop_affect.png  used on input li
@@ -2286,19 +2267,19 @@ ne 90.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<assets/work/rating/4/lambda_0.01_0.1.png, id=1136, 891.0891pt x 359.9046pt>
+<assets/work/rating/4/lambda_0.01_0.1.png, id=1187, 891.0891pt x 359.9046pt>
 File: assets/work/rating/4/lambda_0.01_0.1.png Graphic file (type png)
 <use assets/work/rating/4/lambda_0.01_0.1.png>
 Package pdftex.def Info: assets/work/rating/4/lambda_0.01_0.1.png  used on inpu
 t line 113.
 (pdftex.def)             Requested size: 409.71692pt x 165.48123pt.
-<assets/work/rating/4/adaptive.png, id=1137, 891.0891pt x 359.9046pt>
+<assets/work/rating/4/adaptive.png, id=1188, 891.0891pt x 359.9046pt>
 File: assets/work/rating/4/adaptive.png Graphic file (type png)
 <use assets/work/rating/4/adaptive.png>
 Package pdftex.def Info: assets/work/rating/4/adaptive.png  used on input line 
 119.
 (pdftex.def)             Requested size: 409.71692pt x 165.48123pt.
-[68 <./assets/work/rating/1/sensitivity.png> <./assets/work/rating/2/comparison
+[75 <./assets/work/rating/1/sensitivity.png> <./assets/work/rating/2/comparison
 _analysis.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2306,19 +2287,52 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-))) [69 <./assets/work/rating/3/slop_affect.png>] [70 <./assets/work/rating/4/l
-ambda_0.01_0.1.png> <./assets/work/rating/4/adaptive.png>]
+)) (./chapters/work/games/main.tex (./chapters/work/games/intro.tex [76 <./asse
+ts/work/rating/3/slop_affect.png>]) (./chapters/work/games/game.tex [77 <./asse
+ts/work/rating/4/lambda_0.01_0.1.png> <./assets/work/rating/4/adaptive.png>]
+<assets/work/games/achieve.png, id=1224, 765.45975pt x 307.74976pt>
+File: assets/work/games/achieve.png Graphic file (type png)
+<use assets/work/games/achieve.png>
+Package pdftex.def Info: assets/work/games/achieve.png  used on input line 32.
+(pdftex.def)             Requested size: 227.62206pt x 91.51324pt.
+
+[78 <./assets/work/games/achieve.png>]
+<assets/work/games/difficulty.excalidraw.png, id=1238, 820.06375pt x 324.21124p
+t>
+File: assets/work/games/difficulty.excalidraw.png Graphic file (type png)
+<use assets/work/games/difficulty.excalidraw.png>
+Package pdftex.def Info: assets/work/games/difficulty.excalidraw.png  used on i
+nput line 55.
+(pdftex.def)             Requested size: 227.62206pt x 89.987pt.
+)
+Overfull \hbox (10.88994pt too wide) in paragraph at lines 51--4
+[]\T2A/cmr/m/up/12 Модель до-пол-ни-тель-но снаб-же-на филь-тром цен-зу-ры, поз
+-во-ля-ю-щей из-бе-гать неэтич-
+ []
+
+)) [79 <./assets/work/games/difficulty.excalidraw.png>]
 Р“Р»Р°РІР° 5.
 (./chapters/final/main.tex (./chapters/final/results.tex)
-(./chapters/final/future.tex) [71
+(./chapters/final/future.tex
+<assets/final/setting.excalidraw.png, id=1251, 1274.7625pt x 309.155pt>
+File: assets/final/setting.excalidraw.png Graphic file (type png)
+<use assets/final/setting.excalidraw.png>
+Package pdftex.def Info: assets/final/setting.excalidraw.png  used on input lin
+e 5.
+(pdftex.def)             Requested size: 227.62206pt x 55.20206pt.
 
-] (./chapters/final/great.tex))
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[80
+
+] [81 <./assets/final/setting.excalidraw.png>]) (./chapters/final/great.tex))
 Overfull \hbox (40.74162pt too wide) in paragraph at lines 1--41
 []\T2A/cmr/m/up/12 Автор бла-го-да-рит ка-фед-ру ин-но-ва-ци-он-ной пе-да-го-ги
 -ки Мос-ков-ско-го физико-технического
  []
 
-[72]
+[82]
 Overfull \hbox (2.22641pt too wide) in paragraph at lines 43--43
 \T2A/cmr/m/up/12 by jointly learning to align and translateї. В: \T2A/cmr/m/it/
 12 arXiv preprint arXiv:1409.0473 \T2A/cmr/m/up/12 (2014). 
@@ -2336,7 +2350,7 @@ Overfull \hbox (11.9783pt too wide) in paragraph at lines 43--43
 hods of group instruction
  []
 
-[73
+[83
 
 ]
 Overfull \hbox (5.44946pt too wide) in paragraph at lines 43--43
@@ -2356,22 +2370,10 @@ Overfull \hbox (3.09172pt too wide) in paragraph at lines 43--43
 els via posterior covariance
  []
 
-[74]
-Overfull \hbox (14.59929pt too wide) in paragraph at lines 43--43
-[]\T2A/cmr/m/up/12 V Roshan Joseph. ѕ  Efficient Robbins--Monro procedure for b
-inary dataї. В: \T2A/cmr/m/it/12 Biometrika
- []
-
-
+[84]
 Overfull \hbox (19.76001pt too wide) in paragraph at lines 43--43
 []\T2A/cmr/m/up/12 Leonid V Kantorovich. ѕ  Mathematical methods of organizing 
 and planning productionї.
- []
-
-
-Overfull \hbox (13.57507pt too wide) in paragraph at lines 43--43
-[]\T2A/cmr/m/up/12 Sai Praneeth Karimireddy и др. ѕ  Scaffold: Stochastic contr
-olled averaging for federated
  []
 
 ! Missing $ inserted.
@@ -2398,7 +2400,7 @@ Overfull \hbox (17.34772pt too wide) in paragraph at lines 43--43
 /m/it/12 arXiv preprint arXiv:2401.03206
  []
 
-[75]
+[85]
 Overfull \hbox (6.3431pt too wide) in paragraph at lines 43--43
 \T2A/cmr/m/up/12 feedbackї. В: \T2A/cmr/m/it/12 Advances in neural information 
 processing systems \T2A/cmr/m/up/12 35 (2022), с. 27730^^V
@@ -2428,7 +2430,7 @@ Overfull \hbox (17.03723pt too wide) in paragraph at lines 43--43
 computer vision and pattern recognition\T2A/cmr/m/up/12 .
  []
 
-[76]
+
 Overfull \hbox (3.19853pt too wide) in paragraph at lines 43--43
 []\T2A/cmr/m/up/12 Zejiang Shen и др. ѕ  Layoutparser: A unified toolkit for de
 ep learning based document
@@ -2440,99 +2442,87 @@ Overfull \hbox (25.18645pt too wide) in paragraph at lines 43--43
 ognition--ICDAR 2021: 16th International
  []
 
-
-Overfull \hbox (23.95157pt too wide) in paragraph at lines 43--43
-\T2A/cmr/m/up/12 provably faster distributed nonconvex optimizationї. В: \T2A/c
-mr/m/it/12 arXiv preprint arXiv:2110.03300
- []
-
-
-Overfull \hbox (6.20131pt too wide) in paragraph at lines 43--43
-[]\T2A/cmr/m/up/12 Kristan J Wheaton. ѕ  Teaching strategic intelligence throug
-h gamesї. В: \T2A/cmr/m/it/12 International
- []
-
-[77] (./chapters/appendix/main.tex (./chapters/appendix/references.tex [78])
-(./chapters/appendix/methods.tex [79]
-<assets/work/rating/1/fixed.png, id=1219, 1084.05pt x 361.35pt>
+[86] [87] (./chapters/appendix/main.tex (./chapters/appendix/references.tex
+[88]) [89] (./chapters/appendix/methods.tex [90]
+<assets/work/rating/1/fixed.png, id=1313, 1084.05pt x 361.35pt>
 File: assets/work/rating/1/fixed.png Graphic file (type png)
 <use assets/work/rating/1/fixed.png>
 Package pdftex.def Info: assets/work/rating/1/fixed.png  used on input line 8.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
-<assets/work/rating/1/lambda_0.1.png, id=1220, 1084.05pt x 361.35pt>
+<assets/work/rating/1/lambda_0.1.png, id=1314, 1084.05pt x 361.35pt>
 File: assets/work/rating/1/lambda_0.1.png Graphic file (type png)
 <use assets/work/rating/1/lambda_0.1.png>
 Package pdftex.def Info: assets/work/rating/1/lambda_0.1.png  used on input lin
 e 14.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
-<assets/work/rating/1/lambda_0.5.png, id=1221, 1084.05pt x 361.35pt>
+<assets/work/rating/1/lambda_0.5.png, id=1315, 1084.05pt x 361.35pt>
 File: assets/work/rating/1/lambda_0.5.png Graphic file (type png)
 <use assets/work/rating/1/lambda_0.5.png>
 Package pdftex.def Info: assets/work/rating/1/lambda_0.5.png  used on input lin
 e 20.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
-<assets/work/rating/1/adaptive.png, id=1222, 1084.05pt x 361.35pt>
+<assets/work/rating/1/adaptive.png, id=1316, 1084.05pt x 361.35pt>
 File: assets/work/rating/1/adaptive.png Graphic file (type png)
 <use assets/work/rating/1/adaptive.png>
 Package pdftex.def Info: assets/work/rating/1/adaptive.png  used on input line 
 26.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
- [80 <./assets/work/rating/1/fixed.png> <./assets/work/rating/1/lambda_0.1.png>
+ [91 <./assets/work/rating/1/fixed.png> <./assets/work/rating/1/lambda_0.1.png>
  <./assets/work/rating/1/lambda_0.5.png> <./assets/work/rating/1/adaptive.png>]
-<assets/work/rating/2/fixed.png, id=1236, 1084.05pt x 361.35pt>
+<assets/work/rating/2/fixed.png, id=1331, 1084.05pt x 361.35pt>
 File: assets/work/rating/2/fixed.png Graphic file (type png)
 <use assets/work/rating/2/fixed.png>
 Package pdftex.def Info: assets/work/rating/2/fixed.png  used on input line 34.
 
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
-<assets/work/rating/2/lambda_0.1.png, id=1237, 1084.05pt x 361.35pt>
+<assets/work/rating/2/lambda_0.1.png, id=1332, 1084.05pt x 361.35pt>
 File: assets/work/rating/2/lambda_0.1.png Graphic file (type png)
 <use assets/work/rating/2/lambda_0.1.png>
 Package pdftex.def Info: assets/work/rating/2/lambda_0.1.png  used on input lin
 e 40.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
-<assets/work/rating/2/lambda_0.5.png, id=1238, 1084.05pt x 361.35pt>
+<assets/work/rating/2/lambda_0.5.png, id=1333, 1084.05pt x 361.35pt>
 File: assets/work/rating/2/lambda_0.5.png Graphic file (type png)
 <use assets/work/rating/2/lambda_0.5.png>
 Package pdftex.def Info: assets/work/rating/2/lambda_0.5.png  used on input lin
 e 46.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
-<assets/work/rating/2/adaptive.png, id=1239, 1084.05pt x 361.35pt>
+<assets/work/rating/2/adaptive.png, id=1334, 1084.05pt x 361.35pt>
 File: assets/work/rating/2/adaptive.png Graphic file (type png)
 <use assets/work/rating/2/adaptive.png>
 Package pdftex.def Info: assets/work/rating/2/adaptive.png  used on input line 
 52.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
- [81 <./assets/work/rating/2/fixed.png> <./assets/work/rating/2/lambda_0.1.png>
+ [92 <./assets/work/rating/2/fixed.png> <./assets/work/rating/2/lambda_0.1.png>
  <./assets/work/rating/2/lambda_0.5.png> <./assets/work/rating/2/adaptive.png>]
-<assets/work/rating/3/0.png, id=1253, 1084.05pt x 361.35pt>
+<assets/work/rating/3/0.png, id=1349, 1084.05pt x 361.35pt>
 File: assets/work/rating/3/0.png Graphic file (type png)
 <use assets/work/rating/3/0.png>
 Package pdftex.def Info: assets/work/rating/3/0.png  used on input line 60.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
-<assets/work/rating/3/1.png, id=1254, 1084.05pt x 361.35pt>
+<assets/work/rating/3/1.png, id=1350, 1084.05pt x 361.35pt>
 File: assets/work/rating/3/1.png Graphic file (type png)
 <use assets/work/rating/3/1.png>
 Package pdftex.def Info: assets/work/rating/3/1.png  used on input line 66.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
-<assets/work/rating/3/2.png, id=1255, 1084.05pt x 361.35pt>
+<assets/work/rating/3/2.png, id=1351, 1084.05pt x 361.35pt>
 File: assets/work/rating/3/2.png Graphic file (type png)
 <use assets/work/rating/3/2.png>
 Package pdftex.def Info: assets/work/rating/3/2.png  used on input line 71.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
-<assets/work/rating/3/3.png, id=1256, 1084.05pt x 361.35pt>
+<assets/work/rating/3/3.png, id=1352, 1084.05pt x 361.35pt>
 File: assets/work/rating/3/3.png Graphic file (type png)
 <use assets/work/rating/3/3.png>
 Package pdftex.def Info: assets/work/rating/3/3.png  used on input line 76.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
- [82 <./assets/work/rating/3/0.png> <./assets/work/rating/3/1.png> <./assets/wo
+ [93 <./assets/work/rating/3/0.png> <./assets/work/rating/3/1.png> <./assets/wo
 rk/rating/3/2.png> <./assets/work/rating/3/3.png>]
 File: assets/work/rating/4/adaptive.png Graphic file (type png)
 <use assets/work/rating/4/adaptive.png>
 Package pdftex.def Info: assets/work/rating/4/adaptive.png  used on input line 
 83.
 (pdftex.def)             Requested size: 364.19667pt x 147.09505pt.
- [83] (./main.aux)
+ [94] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2543,7 +2533,10 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6CC73238396B74FB67A09BBCED4F6A00;11725.
+(rerunfilecheck)             Checksum: B3CF6FDD364671B743666F7CE4C82FD4;11863.
+
+Package biblatex Warning: Please rerun LaTeX.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -2553,23 +2546,23 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### semi simple group (level 1) entered at line 37 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31377 strings out of 479721
- 582033 string characters out of 5887697
- 1374572 words of memory out of 5000000
- 48155 multiletter control sequences out of 15000+600000
- 500991 words of font info for 103 fonts, out of 8000000 for 9000
+ 31469 strings out of 479721
+ 583121 string characters out of 5887697
+ 1379057 words of memory out of 5000000
+ 48188 multiletter control sequences out of 15000+600000
+ 503452 words of font info for 111 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 91i,16n,91p,1496b,24194s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 91i,16n,91p,1129b,24194s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/la
 cc1200.600pk> </home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1
-200.600pk> </home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000
-.600pk> </home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1000.60
+000.600pk> </home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1200
+.600pk> </home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.60
 0pk> </home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0700.600pk
 > </home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labi1200.600pk> <
 /home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0800.600pk> </ho
 me/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasi1728.600pk> </home/
-bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1440.600pk> </home/bug
-/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1200.600pk> </home/bug/.t
+bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1200.600pk> </home/bug
+/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1440.600pk> </home/bug/.t
 exlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1728.600pk> </home/bug/.texl
 ive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/bug/.texli
 ve2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasl1200.600pk> </home/bug/.texlive2
@@ -2583,20 +2576,21 @@ amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 mi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/symbols/msbm10.pfb>
-Output written on main.pdf (83 pages, 4436738 bytes).
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/s
+ymbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msbm10.pfb>
+Output written on main.pdf (94 pages, 4797756 bytes).
 PDF statistics:
- 2208 PDF objects out of 2487 (max. 8388607)
- 1233 compressed objects within 13 object streams
- 466 named destinations out of 1000 (max. 500000)
- 742 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2321 PDF objects out of 2487 (max. 8388607)
+ 1322 compressed objects within 14 object streams
+ 519 named destinations out of 1000 (max. 500000)
+ 749 words of extra memory for PDF output out of 10000 (max. 10000000)
 

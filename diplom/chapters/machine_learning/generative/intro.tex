@@ -1,12 +1,12 @@
-
-Порождающие модели современное и быстро развивающие направление работы с данными.
-
-Ключевыми достижениями в дисципилине были \begin{enumerate}
+Порождающие модели современное и быстро развивающие направление работы с данными, направленное на их
+создание и получение вероятностной массы. Ключевыми достижениями в дисциплине были \begin{enumerate}
     \item порождающие грамматики \cite{chomsky2002syntactic}
     \item графические вероятностные модели \cite{pearl1988probabilistic}
     \item состязательные порождающие модели \cite{goodfellow2020generative}
     \item диффузионные порождающие модели \cite{song2020score}
 \end{enumerate}
+Такие модели также представляют интерес для предметных исследователей, поскольку позволяют аналитически изучать
+элементарные механизмы задания графа.
 
 Порождающие модели задают совместное распределение наблюдаемого объекта $x$ и его черт $y$ -  $p(x,y)$. В этом заключается 
 ключевое различие между порождающими и дискриминирующими моделями $p(y|x)$ \ref{discr_vs_gen}.
@@ -14,22 +14,40 @@
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{assets/ml/generation/stable_diffusion.png}
-    \caption{Генеративные отличаются}
+    \caption{Архитектура современной модели Stable Diffusion}
     \label{discr_vs_gen}
 \end{figure}
 
+Порождающие модели, используют параметрические модели $p_\theta$ для аппроксимации истинных функций распределений на наборе обучающих данных.
+Выбор параметрической функции аппроксимации, как правило, зависит от числа примеров в коллекции данных. Для больших наборов данных как правило используют нейросети.
+Простейшим видом порождающей модели является авторегрессионная модель модель, использующая предшествующий контекст для предсказания следующего элемента.
 
-Порождающие модели, используют параметрические модели $p_\theta$ для аппроксимации истинных функций распределений. Таким образом, аппроксиматором может выступить
-древо или нейросеть.
+\textit{Определение } \textbf{Авторегрессионные модели} представляют собой класс порождающих моделей,
+с вычислимой  вероятностью, выполняющие генерацию через цепочку последовательных преобразований \begin{equation}
+    p(x^{(1)},\dots,x^{(t)}) = \prod_{t=1}^T p_\theta(x^{(t)}|x^{(1)},\dots,x^{(t-1)})
+\end{equation}
 
-\textit{Определение} $f$-дивергенцией называется выпуклая функция, удовлетворяющая равенству $f(1)=0$/
+Как правило, авторегресионные модели используются для генерации последовательностей, временных рядов и текста.
+Класс плохо применим к данные не подлежащие однозначному упорядочиванию или с неравномерным шагом. 
 
+Для оценки разницы между вероятностными распределениями используются \textbf{дивергенции} с набором правил \begin{enumerate}
+    \item $\forall p,q \in M \rightarrow D(p,q) \ge 0$  
+    \item $p=q \leftrightarrow D(p,q) = 0$
+    \item $\forall p \rightarrow D(p,p+dp)$ положительно определенная квадратичная фоорма  
+\end{enumerate}
+
+В отличие  от метрики дивергенции не обязаны быть симметричны.ьНа практике как правило используются специальный класс $f$-дивергенций, задающихся
+через матожидание.
+
+\textit{Определение} $f$-дивергенцией называется выпуклая функция, удовлетворяющая равенству $f(1)=0$.
 $$
     D_f{\pi \parallel \rho} = \mathrm E_{\rho(x)} f\left(\frac{\pi(x)}{\rho(x)}\right)
 $$
 
 Семейство $f$-дивергенций включает функции \begin{enumerate}
-    \item Кульбака-Лейбнера $f(u)=u logu $
+    \item дивергенция Кульбака-Лейбнера $u logu $
+    \item обратная дивергенция Кульбака-Лейбнера $-ln u$
+    \item дивергенция Йенсена-Шэннона  $\frac{1}{2}\left(u ln u - (u+1) ln(\frac{u+1}{2})\right)$
 \end{enumerate}
 
 
@@ -39,19 +57,45 @@ $$
     \mathcal{L}(\phi,\theta;x) = \mathbb{E}_{z \sim q_\phi(z|x)} \left[\ln \frac{p_{\theta}(x,z)}{q_{\phi}(z|x)}\right],
 $$
 
-Ключевым свойством полученной оценки является выражение:
+Перепишем через KL-дивергенцию:
+\begin{equation}
+    \begin{aligned}
+        & D_\text{KL}( q_\phi(\mathbf{z}\vert\mathbf{x}) \| p_\theta(\mathbf{z}\vert\mathbf{x}) ) & \\
+        &=\int q_\phi(\mathbf{z} \vert \mathbf{x}) \log\frac{q_\phi(\mathbf{z} \vert \mathbf{x})}{p_\theta(\mathbf{z} \vert \mathbf{x})} d\mathbf{z} & \\
+        &=\int q_\phi(\mathbf{z} \vert \mathbf{x}) \log\frac{q_\phi(\mathbf{z} \vert \mathbf{x})p_\theta(\mathbf{x})}{p_\theta(\mathbf{z}, \mathbf{x})} d\mathbf{z}\\
+        &=\int q_\phi(\mathbf{z} \vert \mathbf{x}) \big( \log p_\theta(\mathbf{x}) + \log\frac{q_\phi(\mathbf{z} \vert \mathbf{x})}{p_\theta(\mathbf{z}, \mathbf{x})} \big) d\mathbf{z} & \\
+        &=\log p_\theta(\mathbf{x}) + \int q_\phi(\mathbf{z} \vert \mathbf{x})\log\frac{q_\phi(\mathbf{z} \vert \mathbf{x})}{p_\theta(\mathbf{z}, \mathbf{x})} d\mathbf{z} \\
+        &=\log p_\theta(\mathbf{x}) + \int q_\phi(\mathbf{z} \vert \mathbf{x})\log\frac{q_\phi(\mathbf{z} \vert \mathbf{x})}{p_\theta(\mathbf{x}\vert\mathbf{z})p_\theta(\mathbf{z})} d\mathbf{z} \\
+        &=\log p_\theta(\mathbf{x}) + \mathbb{E}_{\mathbf{z}\sim q_\phi(\mathbf{z} \vert \mathbf{x})}[\log \frac{q_\phi(\mathbf{z} \vert \mathbf{x})}{p_\theta(\mathbf{z})} - \log p_\theta(\mathbf{x} \vert \mathbf{z})] &\\
+        &=\log p_\theta(\mathbf{x}) + D_\text{KL}(q_\phi(\mathbf{z}\vert\mathbf{x}) \| p_\theta(\mathbf{z})) - \mathbb{E}_{\mathbf{z}\sim q_\phi(\mathbf{z}\vert\mathbf{x})}\log p_\theta(\mathbf{x}\vert\mathbf{z}) &
+    \end{aligned}
+\end{equation}
+
+Следовательно:
+\begin{equation}
+    \log p_\theta(\mathbf{x}) - D_\text{KL}( q_\phi(\mathbf{z}\vert\mathbf{x}) \| p_\theta(\mathbf{z}\vert\mathbf{x}) ) = \mathbb{E}_{\mathbf{z}\sim q_\phi(\mathbf{z}\vert\mathbf{x})}\log p_\theta(\mathbf{x}\vert\mathbf{z}) - D_\text{KL}(q_\phi(\mathbf{z}\vert\mathbf{x}) \| p_\theta(\mathbf{z}))
+\end{equation}
+    
+Таким образом, из неравенства Йенсена получаем: 
 $$
     \ln p_\theta(x) \le \mathcal{L}(\phi,\theta;x)
 $$
-полученное из частного случая неравенстов Йенсена.
-
+Базовым алгоритмом оптимизации вариационных моделей является EM-алгоритм, состоящий из последовательного обновления
+скрытых представлений и максимизации правдоподобия с заданным параметрами.
 
 \textit{Определение} \textbf{EM-алгоритм} - алгоритм для нахождения оценок
 максимального правдоподобия параметров  вероятностных моделей с скрытыми переменными $\theta$.
 
-Алгоритм состоит из двух шагов. \begin{itemize}
-    \item E(xpectation) шага $q^{(t)} = $. Шаг 
-    обновляет распределение при фиксированных параметрах
-    \item M(maximization) $\Theta$ является значением, 
-    максимизирующим на шаге $M$ условное матожидание $E$ логарифма правдоподобия при данных значениях наблюдаемых переменных и предыдущем значении параметров.  
+Аналитически шаги алгоритма записываются как: \begin{itemize}
+    \item расчет матожидания при заданном на шаге $t$ параметре $\theta^{(t)}$.
+    Шаг обноez \begin{equation}
+        Q(\theta| \theta^{(t)}) = \mathbb{E}_{\mathbf{Z} \sim p(\mathbf{Z}|X,\theta^{(t)})} \left[ \log p(\mathbf{X},\mathbf{Z}|\mathbf{\theta})\right]
+    \end{equation}
+    \item максимизации полученного выражения для нового шага $\mathbf{\theta}^{(t+1)}$: \begin{equation}
+        \mathbf{\theta}^{(t+1)} = \text{arg} \max_{\theta} Q(\mathbf{\theta}|\theta^{(t)})
+    \end{equation}  
 \end{itemize}
+
+
+
+

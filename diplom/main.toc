@@ -1,61 +1,60 @@
 \babel@toc {russian}{}\relax 
 \contentsline {chapter}{\numberline {1}Математические основы машинного обучения}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Методы оптимазации}{5}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Градиентный спуск}{6}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Распределенное обучение}{8}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Стохастическая аппроксимация}{10}{subsection.1.1.3}%
-\contentsline {section}{\numberline {1.2}Методы оптимального обучения}{12}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Оптимизация графа}{13}{subsection.1.2.1}%
-\contentsline {section}{\numberline {1.3}Оптимальный транспорт}{16}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Методы машинного обучения}{19}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Нейросетевые подходы}{19}{section.2.1}%
-\contentsline {subsubsection}{Кодировщики и декодировщики}{20}{section*.14}%
-\contentsline {subsubsection}{Transformer. Представление внимания}{22}{section*.18}%
-\contentsline {subsubsection}{Применение}{23}{section*.20}%
-\contentsline {section}{\numberline {2.2}Генеративные подходы}{27}{section.2.2}%
-\contentsline {subsubsection}{Модели потоков}{28}{section*.25}%
-\contentsline {subsection}{\numberline {2.2.1}Энергетические модели}{29}{subsection.2.2.1}%
-\contentsline {section}{\numberline {2.3}Обработка естественного языка}{30}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Формальные языки}{31}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Представление языка в виде вложений}{33}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Большие языковые модели}{35}{subsection.2.3.3}%
-\contentsline {chapter}{\numberline {3}Математические методы в педагогике}{37}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Значение образования}{37}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Функция блага}{38}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Механизм}{39}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Систем наград}{42}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Структура методического материала}{43}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Дидактический подход}{43}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Психологические подходы}{46}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Методическая задача}{48}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Организация}{49}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Тестовые системы}{50}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {4}Описание работы}{53}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Подготовка данных для обучения}{53}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Разметка}{53}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Распознание текста}{54}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Приложение}{57}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Проект интеллектуального ассистента}{57}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Подготовка веб-приложения}{59}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Игры}{59}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Игры}{59}{subsection.4.3.1}%
-\contentsline {section}{\numberline {4.4}Рейтинговая система}{61}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Адаптация рейтинговой системы}{61}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Численные эксперименты}{66}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}}{67}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Случай $\Delta d / \beta \approx 0$ }{67}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Случай значительного отличия априорных представлений о наклоне кривой от действительного}{68}{subsection.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.6}Модификация скользящим средним}{69}{subsection.4.4.6}%
-\contentsline {chapter}{\numberline {5}Заключение}{71}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Итоги работы}{71}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Дальнейшая работа}{71}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Благодарности}{72}{subsection.5.2.1}%
-\contentsline {chapter}{Список литературы}{72}{subsection.5.2.1}%
-\contentsline {section}{\numberline {5.3}Дополнительные материалы}{78}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Использованная литература}{78}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Численное моделирование}{79}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Приложение}{80}{subsection.5.3.3}%
-\contentsline {subsubsection}{Эксперимент 1}{80}{section*.69}%
-\contentsline {subsubsection}{Эксперимент 2}{81}{section*.74}%
-\contentsline {subsubsection}{Эксперимент 3}{82}{section*.79}%
-\contentsline {subsubsection}{Эксперимент 4}{83}{section*.84}%
+\contentsline {section}{\numberline {1.1}Методы оптимизации}{5}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Градиентный спуск}{7}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Распределенное обучение}{9}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Стохастическая аппроксимация}{12}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}Методы оптимального обучения}{17}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Оптимизация графа}{17}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.3}Оптимальный транспорт}{20}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Методы машинного обучения}{24}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Нейросетевые подходы}{24}{section.2.1}%
+\contentsline {subsubsection}{Кодировщики и декодировщики}{25}{section*.17}%
+\contentsline {subsubsection}{Transformer. Представление внимания}{27}{section*.21}%
+\contentsline {subsubsection}{Применение}{28}{section*.23}%
+\contentsline {section}{\numberline {2.2}Генеративные подходы}{32}{section.2.2}%
+\contentsline {subsubsection}{Модели потоков}{34}{section*.28}%
+\contentsline {subsection}{\numberline {2.2.1}Энергетические модели}{37}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Обработка естественного языка}{39}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Формальные языки}{39}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Представление языка в виде вложений}{41}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Большие языковые модели}{43}{subsection.2.3.3}%
+\contentsline {chapter}{\numberline {3}Математические методы в педагогике}{46}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Значение образования}{46}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Функция блага}{47}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Механизм}{48}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Систем наград}{51}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Структура методического материала}{52}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Методы образования}{52}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Психологические подходы к описанию интеллектуального развития}{53}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Методическая задача}{57}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Тестовые системы}{57}{subsection.3.3.1}%
+\contentsline {chapter}{\numberline {4}Описание работы}{61}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Подготовка данных для обучения}{61}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Разметка}{62}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Распознание текста}{63}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Приложение}{65}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Проект интеллектуального ассистента}{66}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Подготовка веб-приложения}{67}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Рейтинговая система}{68}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Адаптация рейтинговой системы}{68}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Численные эксперименты}{73}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}}{74}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Случай $\Delta d / \beta \approx 0$ }{74}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Случай значительного отличия априорных представлений о наклоне кривой от действительного}{75}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Модификация скользящим средним}{76}{subsection.4.3.6}%
+\contentsline {section}{\numberline {4.4}Игры}{76}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Игры}{77}{subsection.4.4.1}%
+\contentsline {chapter}{\numberline {5}Заключение}{80}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Итоги работы}{80}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Дальнейшая работа}{80}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Благодарности}{82}{subsection.5.2.1}%
+\contentsline {chapter}{Список литературы}{82}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Дополнительные материалы}{88}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Использованная литература}{88}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Численное моделирование}{90}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Приложение}{91}{subsection.5.3.3}%
+\contentsline {subsubsection}{Эксперимент 1}{91}{section*.75}%
+\contentsline {subsubsection}{Эксперимент 2}{92}{section*.80}%
+\contentsline {subsubsection}{Эксперимент 3}{93}{section*.85}%
+\contentsline {subsubsection}{Эксперимент 4}{94}{section*.90}%
