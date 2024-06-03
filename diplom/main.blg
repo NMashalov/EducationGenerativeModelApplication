@@ -1,38 +1,5 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[71] biber:340> INFO - === Sun Jun  2, 2024, 12:10:05
-[90] Biber.pm:418> INFO - Reading 'main.bcf'
-[172] Biber.pm:972> INFO - Found 99 citekeys in bib section 0
-[185] Biber.pm:4383> INFO - Processing section 0
-[196] Biber.pm:4574> INFO - Looking for bibtex file 'ref.bib' for section 0
-[200] bibtex.pm:1713> INFO - LaTeX decoding ...
-[316] bibtex.pm:1518> INFO - Found BibTeX data source 'ref.bib'
-[1061] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1061] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1062] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'ru-RU'
-[1062] Biber.pm:4209> INFO - No sort tailoring available for locale 'ru-RU'
-[1134] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1179] bbl.pm:757> INFO - Output to main.bbl
-[1180] Biber.pm:130> WARN - Duplicate entry key: 'chomsky2002syntactic' in file 'ref.bib', skipping ...
-[1180] Biber.pm:130> WARN - Duplicate entry key: 'robbins1951stochastic' in file 'ref.bib', skipping ...
-[1180] Biber.pm:130> WARN - Duplicate entry key: 'corbett1994knowledge' in file 'ref.bib', skipping ...
-[1180] Biber.pm:130> WARN - Duplicate entry key: 'devlin2018bert' in file 'ref.bib', skipping ...
-[1180] Biber.pm:130> WARN - Duplicate entry key: 'yazidi2020balanced' in file 'ref.bib', skipping ...
-[1180] Biber.pm:130> WARN - Duplicate entry key: 'robbins1951stochastic' in file 'ref.bib', skipping ...
-[1180] Biber.pm:130> WARN - Duplicate entry key: 'xiong2018efficient' in file 'ref.bib', skipping ...
-[1180] Biber.pm:130> WARN - I didn't find a database entry for 'красулина2007односторонней' (section 0)
-[1180] Biber.pm:130> WARN - I didn't find a database entry for 'monge_vs_kantarovich' (section 0)
-[1180] Biber.pm:130> WARN - I didn't find a database entry for 'stablediffusion' (section 0)
-[1180] Biber.pm:130> WARN - I didn't find a database entry for 'ochreiter1997long' (section 0)
-[1180] Biber.pm:130> WARN - I didn't find a database entry for 'lecun1989handwritten' (section 0)
-[1180] Biber.pm:130> WARN - I didn't find a database entry for 'simonyan2014very' (section 0)
-[1180] Biber.pm:130> WARN - I didn't find a database entry for 'ronneberger2015u' (section 0)
-[1180] Biber.pm:130> WARN - I didn't find a database entry for 'kirillov2023segment' (section 0)
-[1180] Biber.pm:130> WARN - I didn't find a database entry for 'radford2019language' (section 0)
-[1180] Biber.pm:130> WARN - I didn't find a database entry for 'Schutze' (section 0)
-[1181] Biber.pm:130> WARN - I didn't find a database entry for 'NIPS2013_9aa42b31' (section 0)
-[1181] Biber.pm:130> WARN - I didn't find a database entry for 'touvron2023llama' (section 0)
-[1181] Biber.pm:130> WARN - I didn't find a database entry for 'libmipt' (section 0)
-[1181] Biber.pm:130> WARN - I didn't find a database entry for 'mathedu' (section 0)
-[1181] Biber.pm:130> WARN - I didn't find a database entry for 'ackenheimer2015introduction' (section 0)
-[1181] Biber.pm:132> INFO - WARNINGS: 22
+[74] biber:340> INFO - === Mon Jun  3, 2024, 03:34:33
+[87] Utils.pm:398> ERROR - main.bcf is malformed, last biblatex run probably failed. Deleted main.bbl
+[88] Biber.pm:135> INFO - ERRORS: 1
