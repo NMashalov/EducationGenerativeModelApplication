@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.5.26)  26 MAY 2024 23:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.6.6)  14 JUN 2024 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main
 (./main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (./mipt-thesis-bs.cls
@@ -428,7 +428,13 @@ Package csquotes Info: ... configuration file loaded successfully.
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 )))
-(./mipt-thesis-biblatex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty
+Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
+
+
+Package cmap Warning: fontenc already loaded - some fonts may be unprocessed.
+
+) (./mipt-thesis-biblatex.sty
 Package: mipt-thesis-biblatex 2014/06/19 Some settings for Biblatex
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -1119,27 +1125,27 @@ Package csquotes Info: Redefining alias 'default' -> 'russian'.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Info: Redefining \th on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Info: Redefining \th on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1194,8 +1200,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 13.
-Package biblatex Info: Reference segment=0 on input line 13.
+Package biblatex Info: Reference section=0 on input line 16.
+Package biblatex Info: Reference segment=0 on input line 16.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -1236,7 +1242,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring OFF on input line 13.
+Package hyperref Info: Link coloring OFF on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1249,23 +1255,22 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count476
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 \c@lstlisting=\count477
+<<t2a.cmap>><<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
 
-Р“Р»Р°РІР° 1.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1273,158 +1278,158 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 15.
+(Font)              using `T2A/cmr/m/n' instead on input line 18.
 
 LaTeX Font Info:    Trying to load font information for PD1+cmr on input line 1
-5.
-LaTeX Font Info:    No file PD1cmr.fd. on input line 15.
+8.
+LaTeX Font Info:    No file PD1cmr.fd. on input line 18.
 
 LaTeX Font Warning: Font shape `PD1/cmr/m/up' undefined
-(Font)              using `PD1/pdf/m/n' instead on input line 15.
+(Font)              using `PD1/pdf/m/n' instead on input line 18.
 
-LaTeX Font Info:    Trying to load font information for PU+cmr on input line 15
+LaTeX Font Info:    Trying to load font information for PU+cmr on input line 18
 .
-LaTeX Font Info:    No file PUcmr.fd. on input line 15.
+LaTeX Font Info:    No file PUcmr.fd. on input line 18.
 
 LaTeX Font Warning: Font shape `PU/cmr/m/up' undefined
-(Font)              using `PU/pdf/m/n' instead on input line 15.
+(Font)              using `PU/pdf/m/n' instead on input line 18.
 
 
-Overfull \hbox (8.76767pt too wide) in paragraph at lines 18--19
-[]\T2A/cmr/m/up/12 Ключевым ре-зуль-та-том ра-бо-ты яв-ля-ет-ся пред-ло-же-ние 
-ал-го-рит-ма об-нов-ле-ния слож-
+Overfull \hbox (8.76767pt too wide) in paragraph at lines 21--22
+[]\T2A/cmr/m/n/12 Ключевым ре-зуль-та-том ра-бо-ты яв-ля-ет-ся пред-ло-же-ние а
+л-го-рит-ма об-нов-ле-ния слож-
  []
 
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<assets/dispersion_reduction.png, id=108, 607.068pt x 384.2355pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]<<t1.cmap>> [2]
+<assets/dispersion_reduction.png, id=111, 607.068pt x 384.2355pt>
 File: assets/dispersion_reduction.png Graphic file (type png)
 <use assets/dispersion_reduction.png>
 Package pdftex.def Info: assets/dispersion_reduction.png  used on input line 11
-1.
+4.
 (pdftex.def)             Requested size: 227.62206pt x 144.07036pt.
 
-Overfull \hbox (11.76314pt too wide) in paragraph at lines 119--120
-[]\T2A/cmr/m/up/12 Для функ-ции от-кли-ка, пред-став-лен-ной па-ра-мет-ри-че-ск
-ой мо-де-лью Эло $\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 d; ; ^^L
-\OT1/cmr/m/n/12 ) =
+Overfull \hbox (11.76314pt too wide) in paragraph at lines 122--123
+[]\T2A/cmr/m/n/12 Для функ-ции от-кли-ка, пред-став-лен-ной па-ра-мет-ри-че-ско
+й мо-де-лью Эло $\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 d; ; ^^L\
+OT1/cmr/m/n/12 ) =
  []
 
 [3 <./assets/dispersion_reduction.png>] [4]
-Overfull \hbox (18.71117pt too wide) detected at line 202
+Overfull \hbox (18.71117pt too wide) detected at line 205
 [][][][]
  []
 
 
-Overfull \hbox (42.04483pt too wide) in paragraph at lines 202--205
-\T2A/cmr/m/up/12 Заметим, что по-лу-чен-ный ин-те-грал $\OML/cmm/m/it/12 I\OT1/
-cmr/m/n/12 (\OML/cmm/m/it/12 ; ^^L; d[]; ^^M[]\OT1/cmr/m/n/12 )$ \T2A/cmr/m/up
-/12 мож-но свя-зать с таб-лич-ным $\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 (\OML/cmm/
-m/it/12 ; ^^L; d[]; ^^M[]\OT1/cmr/m/n/12 ) =
+Overfull \hbox (42.04483pt too wide) in paragraph at lines 205--208
+\T2A/cmr/m/n/12 Заметим, что по-лу-чен-ный ин-те-грал $\OML/cmm/m/it/12 I\OT1/c
+mr/m/n/12 (\OML/cmm/m/it/12 ; ^^L; d[]; ^^M[]\OT1/cmr/m/n/12 )$ \T2A/cmr/m/n/1
+2 мож-но свя-зать с таб-лич-ным $\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 (\OML/cmm/m/
+it/12 ; ^^L; d[]; ^^M[]\OT1/cmr/m/n/12 ) =
  []
 
 [5]
-Underfull \hbox (badness 10000) detected at line 218
+Underfull \hbox (badness 10000) detected at line 221
  []$[]  [][]$ [][][]  
  []
 
 LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
-234.
+237.
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ) [6]
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-254.
+257.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-<assets/logistic.png, id=185, 722.7pt x 505.89pt>
+<assets/logistic.png, id=188, 722.7pt x 505.89pt>
 File: assets/logistic.png Graphic file (type png)
 <use assets/logistic.png>
-Package pdftex.def Info: assets/logistic.png  used on input line 259.
+Package pdftex.def Info: assets/logistic.png  used on input line 262.
 (pdftex.def)             Requested size: 364.19667pt x 254.93593pt.
  [7 <./assets/logistic.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 276.
+(hyperref)                removing `math shift' on input line 279.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Delta' on input line 276.
+(hyperref)                removing `\Delta' on input line 279.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beta' on input line 276.
+(hyperref)                removing `\beta' on input line 279.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\approx' on input line 276.
+(hyperref)                removing `\approx' on input line 279.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 276.
+(hyperref)                removing `math shift' on input line 279.
 
-<assets/1/result.png, id=200, 891.0891pt x 359.9046pt>
+<assets/1/result.png, id=203, 891.0891pt x 359.9046pt>
 File: assets/1/result.png Graphic file (type png)
 <use assets/1/result.png>
-Package pdftex.def Info: assets/1/result.png  used on input line 281.
+Package pdftex.def Info: assets/1/result.png  used on input line 284.
 (pdftex.def)             Requested size: 455.24411pt x 183.87292pt.
-<assets/1/sensitivity.png, id=202, 1084.05pt x 361.35pt>
+<assets/1/sensitivity.png, id=205, 1084.05pt x 361.35pt>
 File: assets/1/sensitivity.png Graphic file (type png)
 <use assets/1/sensitivity.png>
-Package pdftex.def Info: assets/1/sensitivity.png  used on input line 288.
+Package pdftex.def Info: assets/1/sensitivity.png  used on input line 291.
 (pdftex.def)             Requested size: 455.24411pt x 151.74942pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 307.
+(hyperref)                removing `math shift' on input line 310.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Delta' on input line 307.
+(hyperref)                removing `\Delta' on input line 310.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beta' on input line 307.
+(hyperref)                removing `\beta' on input line 310.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\approx' on input line 307.
+(hyperref)                removing `\approx' on input line 310.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 307.
+(hyperref)                removing `math shift' on input line 310.
 
-<assets/2/comparison_analysis.png, id=204, 1084.05pt x 361.35pt>
+<assets/2/comparison_analysis.png, id=207, 1084.05pt x 361.35pt>
 File: assets/2/comparison_analysis.png Graphic file (type png)
 <use assets/2/comparison_analysis.png>
 Package pdftex.def Info: assets/2/comparison_analysis.png  used on input line 3
-14.
+17.
 (pdftex.def)             Requested size: 455.24411pt x 151.74942pt.
 [8 <./assets/1/result.png>]
-<assets/3/slop_affect.png, id=217, 1084.05pt x 361.35pt>
+<assets/3/slop_affect.png, id=220, 1084.05pt x 361.35pt>
 File: assets/3/slop_affect.png Graphic file (type png)
 <use assets/3/slop_affect.png>
-Package pdftex.def Info: assets/3/slop_affect.png  used on input line 339.
+Package pdftex.def Info: assets/3/slop_affect.png  used on input line 342.
 (pdftex.def)             Requested size: 409.71692pt x 136.57007pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<assets/4/lambda_0.01_0.1.png, id=218, 891.0891pt x 359.9046pt>
+<assets/4/lambda_0.01_0.1.png, id=221, 891.0891pt x 359.9046pt>
 File: assets/4/lambda_0.01_0.1.png Graphic file (type png)
 <use assets/4/lambda_0.01_0.1.png>
-Package pdftex.def Info: assets/4/lambda_0.01_0.1.png  used on input line 362.
+Package pdftex.def Info: assets/4/lambda_0.01_0.1.png  used on input line 365.
 (pdftex.def)             Requested size: 409.71692pt x 165.48123pt.
-<assets/4/adaptive.png, id=219, 891.0891pt x 359.9046pt>
+<assets/4/adaptive.png, id=222, 891.0891pt x 359.9046pt>
 File: assets/4/adaptive.png Graphic file (type png)
 <use assets/4/adaptive.png>
-Package pdftex.def Info: assets/4/adaptive.png  used on input line 368.
+Package pdftex.def Info: assets/4/adaptive.png  used on input line 371.
 (pdftex.def)             Requested size: 409.71692pt x 165.48123pt.
 [9 <./assets/1/sensitivity.png> <./assets/2/comparison_analysis.png>]
 
@@ -1435,19 +1440,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [10 <./assets/3/slop_affect.png>] [11 <./assets/4/lambda_0.01_0.1.png> <./asset
 s/4/adaptive.png>] [12]
-Overfull \hbox (3.09172pt too wide) in paragraph at lines 439--439
+Overfull \hbox (3.09172pt too wide) in paragraph at lines 442--442
 []\T2A/cmr/m/up/12 Inchi Hu. ѕ  Strong consistency in stochastic regression mod
 els via posterior covariance
  []
 
 
-Overfull \hbox (14.59929pt too wide) in paragraph at lines 439--439
+Overfull \hbox (14.59929pt too wide) in paragraph at lines 442--442
 []\T2A/cmr/m/up/12 V Roshan Joseph. ѕ  Efficient Robbins--Monro procedure for b
 inary dataї. В: \T2A/cmr/m/it/12 Biometrika
  []
 
 
-Overfull \hbox (17.34772pt too wide) in paragraph at lines 439--439
+Overfull \hbox (17.34772pt too wide) in paragraph at lines 442--442
 \T2A/cmr/m/up/12 Exploit Prior Information For Faster Convergenceї. В: \T2A/cmr
 /m/it/12 arXiv preprint arXiv:2401.03206
  []
@@ -1455,87 +1460,78 @@ Overfull \hbox (17.34772pt too wide) in paragraph at lines 439--439
 [13
 
 ]
-<assets/1/fixed.png, id=267, 1084.05pt x 361.35pt>
+<assets/1/fixed.png, id=270, 1084.05pt x 361.35pt>
 File: assets/1/fixed.png Graphic file (type png)
 <use assets/1/fixed.png>
-Package pdftex.def Info: assets/1/fixed.png  used on input line 448.
+Package pdftex.def Info: assets/1/fixed.png  used on input line 451.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
-<assets/1/lambda_0.1.png, id=268, 1084.05pt x 361.35pt>
+<assets/1/lambda_0.1.png, id=271, 1084.05pt x 361.35pt>
 File: assets/1/lambda_0.1.png Graphic file (type png)
 <use assets/1/lambda_0.1.png>
-Package pdftex.def Info: assets/1/lambda_0.1.png  used on input line 454.
+Package pdftex.def Info: assets/1/lambda_0.1.png  used on input line 457.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
-<assets/1/lambda_0.5.png, id=269, 1084.05pt x 361.35pt>
+<assets/1/lambda_0.5.png, id=272, 1084.05pt x 361.35pt>
 File: assets/1/lambda_0.5.png Graphic file (type png)
 <use assets/1/lambda_0.5.png>
-Package pdftex.def Info: assets/1/lambda_0.5.png  used on input line 460.
+Package pdftex.def Info: assets/1/lambda_0.5.png  used on input line 463.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
-<assets/1/adaptive.png, id=270, 1084.05pt x 361.35pt>
+<assets/1/adaptive.png, id=273, 1084.05pt x 361.35pt>
 File: assets/1/adaptive.png Graphic file (type png)
 <use assets/1/adaptive.png>
-Package pdftex.def Info: assets/1/adaptive.png  used on input line 466.
+Package pdftex.def Info: assets/1/adaptive.png  used on input line 469.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
  [14 <./assets/1/fixed.png> <./assets/1/lambda_0.1.png> <./assets/1/lambda_0.5.
 png> <./assets/1/adaptive.png>]
-<assets/2/fixed.png, id=286, 1084.05pt x 361.35pt>
+<assets/2/fixed.png, id=289, 1084.05pt x 361.35pt>
 File: assets/2/fixed.png Graphic file (type png)
 <use assets/2/fixed.png>
-Package pdftex.def Info: assets/2/fixed.png  used on input line 474.
+Package pdftex.def Info: assets/2/fixed.png  used on input line 477.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
-<assets/2/lambda_0.1.png, id=287, 1084.05pt x 361.35pt>
+<assets/2/lambda_0.1.png, id=290, 1084.05pt x 361.35pt>
 File: assets/2/lambda_0.1.png Graphic file (type png)
 <use assets/2/lambda_0.1.png>
-Package pdftex.def Info: assets/2/lambda_0.1.png  used on input line 480.
+Package pdftex.def Info: assets/2/lambda_0.1.png  used on input line 483.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
-<assets/2/lambda_0.5.png, id=288, 1084.05pt x 361.35pt>
+<assets/2/lambda_0.5.png, id=291, 1084.05pt x 361.35pt>
 File: assets/2/lambda_0.5.png Graphic file (type png)
 <use assets/2/lambda_0.5.png>
-Package pdftex.def Info: assets/2/lambda_0.5.png  used on input line 486.
+Package pdftex.def Info: assets/2/lambda_0.5.png  used on input line 489.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
-<assets/2/adaptive.png, id=289, 1084.05pt x 361.35pt>
+<assets/2/adaptive.png, id=292, 1084.05pt x 361.35pt>
 File: assets/2/adaptive.png Graphic file (type png)
 <use assets/2/adaptive.png>
-Package pdftex.def Info: assets/2/adaptive.png  used on input line 492.
+Package pdftex.def Info: assets/2/adaptive.png  used on input line 495.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
  [15 <./assets/2/fixed.png> <./assets/2/lambda_0.1.png> <./assets/2/lambda_0.5.
 png> <./assets/2/adaptive.png>]
-<assets/3/0.png, id=304, 1084.05pt x 361.35pt>
+<assets/3/0.png, id=307, 1084.05pt x 361.35pt>
 File: assets/3/0.png Graphic file (type png)
 <use assets/3/0.png>
-Package pdftex.def Info: assets/3/0.png  used on input line 500.
+Package pdftex.def Info: assets/3/0.png  used on input line 503.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
 File: assets/3/0.png Graphic file (type png)
 <use assets/3/0.png>
-Package pdftex.def Info: assets/3/0.png  used on input line 506.
+Package pdftex.def Info: assets/3/0.png  used on input line 509.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
 File: assets/3/0.png Graphic file (type png)
 <use assets/3/0.png>
-Package pdftex.def Info: assets/3/0.png  used on input line 511.
+Package pdftex.def Info: assets/3/0.png  used on input line 514.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
 File: assets/3/0.png Graphic file (type png)
 <use assets/3/0.png>
-Package pdftex.def Info: assets/3/0.png  used on input line 516.
+Package pdftex.def Info: assets/3/0.png  used on input line 519.
 (pdftex.def)             Requested size: 364.19667pt x 121.39622pt.
  [16 <./assets/3/0.png>]
 File: assets/4/adaptive.png Graphic file (type png)
 <use assets/4/adaptive.png>
-Package pdftex.def Info: assets/4/adaptive.png  used on input line 523.
+Package pdftex.def Info: assets/4/adaptive.png  used on input line 526.
 (pdftex.def)             Requested size: 364.19667pt x 147.09505pt.
  [17] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A179907CB733CE5B31849EC42C02765D;3665.
-
-Package biblatex Warning: Please rerun LaTeX.
-
+(rerunfilecheck)             Checksum: 4104C7FE114FA09E07ABFA49EE757DA2;2599.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1545,47 +1541,46 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### semi simple group (level 1) entered at line 37 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31323 strings out of 479721
- 553904 string characters out of 5887697
- 1383187 words of memory out of 5000000
- 48678 multiletter control sequences out of 15000+600000
+ 31466 strings out of 479721
+ 556224 string characters out of 5887698
+ 1383834 words of memory out of 5000000
+ 48738 multiletter control sequences out of 15000+600000
  499898 words of font info for 101 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 91i,16n,91p,1129b,24589s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/la
-bx1200.600pk> </home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasl1
-200.600pk> </home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000
-.600pk> </home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1000.60
-0pk> </home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0700.600pk
-> </home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0800.600pk> <
-/home/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasi1728.600pk> </ho
-me/bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1200.600pk> </home/
-bug/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labi1200.600pk> </home/bug
-/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1440.600pk> </home/bug/.t
-exlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/bug/.te
-xlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1728.600pk> </home/bug/.texli
-ve2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/bug/.texlive2
-021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2488.600pk></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (17 pages, 1476660 bytes).
+ 91i,16n,91p,1125b,24605s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </root/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx12
+00.600pk> </root/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasl1200.600p
+k> </root/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> </ro
+ot/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1000.600pk> </root/.tex
+live2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0700.600pk> </root/.texlive202
+1/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0800.600pk> </root/.texlive2021/texmf
+-var/fonts/pk/ljfour/lh/lh-t2a/lasi1728.600pk> </root/.texlive2021/texmf-var/fo
+nts/pk/ljfour/lh/lh-t2a/lati1200.600pk> </root/.texlive2021/texmf-var/fonts/pk/
+ljfour/lh/lh-t2a/labi1200.600pk> </root/.texlive2021/texmf-var/fonts/pk/ljfour/
+lh/lh-t2a/lati1440.600pk> </root/.texlive2021/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/tcrm1200.600pk> </root/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/la
+rm1728.600pk> </root/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.
+600pk> </root/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2488.600pk><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (17 pages, 1472035 bytes).
 PDF statistics:
- 884 PDF objects out of 1000 (max. 8388607)
- 372 compressed objects within 4 object streams
+ 876 PDF objects out of 1000 (max. 8388607)
+ 369 compressed objects within 4 object streams
  126 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
