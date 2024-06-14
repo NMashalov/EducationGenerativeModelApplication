@@ -1,4 +1,4 @@
-Энергетические подходы стали популярны с публикацией прорывных работ по диффузионным порождающим 
+Энергетические подходы приобрели популярность с публикацией прорывных работ по диффузионным порождающим 
 моделям \cite{song2020score}. Ключевым отличием данного подхода является неявная работа с вероятностной
 массой с использованием ненормированного потенциала. Такой подход позволяет исследователям адаптировать
 физические модели для обучения и генерации данных. Так, например, процесс Ланжевена, описывающий
@@ -21,9 +21,8 @@
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\textwidth]{assets/ml/generation/diffusion_1.excalidraw.png}
-    \includegraphics[width=0.5\textwidth]{assets/ml/generation/diffusion_2.excalidraw.png}
-    \caption{Прямой процесс зашумления и обратный процесс коррекции ошибки \cite{stablediffusion}.}
+    \includegraphics[width=0.8\textwidth]{assets/ml/generation/diffusion.excalidraw.png}
+    \caption{Прямой процесс зашумления и обратный процесс коррекции ошибки в диффузионных моделях}
     \label{sd_arch}
 \end{figure}
 
@@ -45,34 +44,34 @@
 
 В компактной форме:
 \begin{equation}
-    ln q(x_{T}) = ln q(x_0) - \sum_{t=1}^T \frac{1}{2\beta_t} \| x_t - \sqrt{1-\beta_t} x_{t-1} \|^2 + C
+    \ln q(x_{T}) = \ln q(x_0) - \sum_{t=1}^T \frac{1}{2\beta_t} \| x_t - \sqrt{1-\beta_t} x_{t-1} \|^2 + C.
 \end{equation}
 
-Обратный процесс состоит в построении цепочки 
+Обратный процесс состоит в построении цепочки:
 $\mathcal{N}(x_{t-1}|\mu(x_t,t),\Sigma(x_t,t))$, восстанавливающей элемент из шума:
 \begin{equation}
     \begin{aligned}
         p_\theta(x_T) = \mathcal{N}(x_T|0,I);
-        p_\theta(x_{t-1}|x_t) = \mathcal{N}(x_{t-1}|\mu_\theta(x_t,t), \Sigma_\theta(x_t,t))
+        p_\theta(x_{t-1}|x_t) = \mathcal{N}(x_{t-1}|\mu_\theta(x_t,t), \Sigma_\theta(x_t,t)).
     \end{aligned}
 \end{equation}
 
 Для введения параметрической модели используют нижнюю вариационную границу ELBO:
 \begin{equation}
-    \mathbb{E}_{x_0 \sim q} \ln p_\theta(x_0) \ge \mathrm{E} \ln p_\theta(x_T) - ln()
+    \mathbb{E}_{x_0 \sim q} \ln p_\theta(x_0) \ge \mathrm{E} \ln p_\theta(x_T) - ln().
 \end{equation}
 Тогда функция ошибки запишется как:
 \begin{equation}
     \begin{aligned}
         &L(\theta) = - \sum_{t=1}^T\mathbb{E}_{x_{t-1},x_t \sim q} \left[-ln p_\theta(x_{t-1|x_t}\right] + \\
-        &+ \mathbb{E}_{x_0 \sim q} \mathbf{D}_{KL}(q(x_T|x_0) \parallel p_\theta (x_T))
+        &+ \mathbb{E}_{x_0 \sim q} \mathbf{D}_{KL}(q(x_T|x_0) \parallel p_\theta (x_T)).
     \end{aligned}
 \end{equation}
 
 На практике функция ошибки упрощается до предсказания шума:
 \begin{equation}
     \mathrm{E}_{x_0 \sim q; z\sim \mathcal{N}(0,I)} 
-    \left[ \| \varepsilon_\theta(x_t,t) -z \|^2\right]
+    \left[ \| \varepsilon_\theta(x_t,t) -z \|^2\right].
 \end{equation}
 
 

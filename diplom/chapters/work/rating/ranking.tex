@@ -1,41 +1,8 @@
-Постановка представляет тест как стохастический ряд вида $\{x\}_{t=0}$ каждый элемент, которого является случайной бернуллевской величиной с параметром $s$. 
-Для ввода управляющей переменной задается сложность задачи $d$, параметризующий в совокупности с функцией отклика учащегося $f$, переменную $s_t = f(d)$.
-
- Таким образом, задача алгоритма предложить функцию $f(d_{t+1}^t,{x}_{i=0}^t)$, обеспечивающую оптимальную сходимость $\lim_{t \rightarrow \infty} \rho(s(d_t),s^*) =1$ согласно условиям:
- \begin{itemize}
-    \item метрика $\rho(x,x') = (x-x')^2$ евклидова
-    \item предполагается наличие банка $W$, возвращающего задачу произвольной сложности $d$
-    \item функция отклика $f(d_t)$ ограничена числом $M$ и монотонно убывает
-\end{itemize}
-
-Алгоритм, отвечающий заданным требования  был предложен в работе \cite{yazidi2020balanced}. Авторы предложили правило обновления сложности:
-
-\begin{equation}
-    d_{t+1} = \Pi(d_t+\lambda (x(t) -s^*)),
-    \label{yazidi}
-\end{equation}
-где функция $\Pi$ является ограничивающим оператором вида
-\begin{equation}
-    \Pi_H(d) = \left\{
-        \begin{array}{ll}
-            d,\ \text{прт}\ 1<d<0 \\
-            1,\ d\ge 1\\
-            0, \text{при} \ d \le 0\\
-        \end{array}
-    \right.
-\end{equation}
-
-Алгоритм по форме соответствует алгоритму Роббинса-Монро\cite{robbins1951stochastic}, известному в теории стохастической аппроксимации. 
-Отметим, что поскольку коэффициент $\lambda$ является постоянной, то сходимость по алгоритму Роббинса-Монро не гарантируется.
-
-
-\begin{equation}
-    x_{n+1} = x_{n} - a_n(x -b_n).
-\end{equation}
-Схема доказательства \begin{enumerate}
-    \item используем модифицированный алгоритм Роббинса-Монро, используя 
+Принципиальная схема доказательства состоит из трех этапов:
+ \begin{enumerate}
+    \item используем модифицированный алгоритм Роббинса-Монро; 
     \item зададим связь между функцией отклика $s(d)$ и параметрами $a_n$ и $b_N$ через условия несмещенности оценки $E(x_n)$ и
-минимизации дисперсии $\mathbf{D}(x_n) \rightarrow min$  \cite{hu1997strong} \cite{hu1998sequential}
+минимизации дисперсии $\mathbf{D}(x_n) \rightarrow min$  \cite{hu1997strong} \cite{hu1998sequential};
     \item определим явное выражение $a_n$ и $b_n$ для априорного представления о функции отклика в виде параметрической модели Эло $s(d,\alpha,\beta) = 1 - \frac{1}{1+\exp\left(-\beta \cdot(\mathbf{d} -\alpha)\right)}$
 \end{enumerate}
 
@@ -46,23 +13,25 @@
     \label{principal_scheme}
 \end{figure}
 
-\textit{\textbf{Теорема.}Адаптированный алгоритм Роббинса-Монро для случая наблюдений, имеющих бернуллевское распределение.} \label{algo} 
-При условии $\forall n \rightarrow x_n \sim \text{Bern}(s(d_n))$ выполняются следующие утверждения. \begin{enumerate}
-    \item Оптимальная сходимость достигается при $a_n = \frac{\mathbb{E}[d_n s(d_n)]}{\mathbb{E}s(d_n)(1 - \mathbb{E}s(d_n))}$ , $b_n =\mathbb{E} s(d_n)$
-    \item Для функции отклика, представленной параметрической моделью Эло $s(d,\alpha,\beta) = 1 - \frac{1}{1+\exp\left(-\beta \cdot(d -\alpha)\right)}$
-     и в предположении нормальности распределения $d \sim \mathcal{N}(\alpha,\sigma^2)$ получим аппроксимацию рядов $a_n$ и $b_n$, обеспечивающих оптимальную сходимость как\begin{itemize}
+\textit{\textbf{Теорема:} Адаптированный алгоритм Роббинса-Монро для случая наблюдений, имеющих бернуллевское распределение.} \label{algo} 
+При условии $\forall n \rightarrow x_n \sim \text{Bern}(s(d_n))$ выполняются следующие утверждения. 
+\begin{enumerate}
+    \item оптимальная сходимость достигается при $a_n = \frac{\mathbb{E}[d_n s(d_n)]}{\mathbb{E}s(d_n)(1 - \mathbb{E}s(d_n))}$ , $b_n =\mathbb{E} s(d_n)$;
+    \item для функции отклика, представленной параметрической моделью Эло $s(d,\alpha,\beta) = 1 - \frac{1}{1+\exp\left(-\beta \cdot(d -\alpha)\right)}$
+     и в предположении нормальности распределения $d \sim \mathcal{N}(\alpha,\sigma^2)$ получим аппроксимацию рядов $a_n$ и $b_n$, обеспечивающих оптимальную сходимость как:
+     \begin{itemize}
         \item $a_n = \frac{1}{b_n(1-b_n)} \frac{1}{4  \beta \sqrt{1+\frac{\pi\gamma_n^2}{8}}} \exp\left( \frac{- \pi (\alpha-d^*)^2}{16  \beta^2 ( 1+\frac{\pi\gamma_n^2}{8})}\right)$
         \item $b_n = \frac{1}{2} + \frac{1}{2} \text{erf}\left(\frac{\sqrt{\pi} (\alpha-d^*)}{4 \sqrt{1+\frac{\pi\gamma_n^2}{8}}} \right)$.
     \end{itemize} 
 \end{enumerate}
-\textit{Доказательство}
-Сходимость метода приведена в аппендиксе работы \ref{ino}.
-1) Используем рекуррентное представление для поиска оптимальных параметров $a_n,b_n$
+\textit{Доказательство:}
+Анализ сходимости метода приведен в приложении к работе \ref{ino}.
+Используем рекуррентное представление для поиска оптимальных параметров $a_n,b_n$:
 \begin{equation}
     d_{n+1} = d_n -  a_n(x_n-b_n).
     \label{mod_scheme}
 \end{equation}
-Рассчитаем матожидание $\mathrm{E}_{d_n ~ p(d_n)}$ как:
+Рассчитаем матожидание $\mathrm{E}_{d_n ~ p(d_n)}$:
 \begin{equation}
     \mathrm{E} d_{n+1} = \mathrm{E} d_n -  a_n(\mathrm{E}x_n-b_n).
 \end{equation}
@@ -70,7 +39,7 @@
 \begin{equation}
     a_n (\mathrm{E} s(d_n) - b_n)  =0.
 \end{equation}
-Следовательно,
+Следовательно:
 \begin{equation}
     \label{b_n}
     b_n = \mathrm{E} s(d_n).
@@ -99,13 +68,15 @@
 \end{equation}
 Тогда связь между дисперсиями на каждом шаге запишется как:
 \begin{equation}
-    \mathbf{D} d_{n+1} = \mathbf{D} d_n - \frac{\left(\mathrm{E} \left[ (d_n-d^*) s(d_n)\right] \right)^2}{\mathrm{E}s(d_n)(1 - \mathrm{E}s(d_n))} 
+    \mathbf{D} d_{n+1} = \mathbf{D} d_n - \frac{\left(\mathrm{E} \left[ (d_n-d^*) s(d_n)\right] \right)^2}{\mathrm{E}s(d_n)(1 - \mathrm{E}s(d_n))}.
 \end{equation}
-2) Определим оптимальные коэффициенты $a_n$ и $b_n$ для случая отклика согласно модели Эло: $s(d_n) = \sigma(d,\alpha,\beta) = 1 - \frac{1}{1+\exp(-\frac{(d_n-\alpha)}{\beta})}$. Исходя из предположения $d^*$:
+Определим оптимальные коэффициенты $a_n$ и $b_n$ для случая отклика согласно модели Эло: $s(d_n) = \sigma(d,\alpha,\beta) = 1 - \frac{1}{1+\exp(-\frac{(d_n-\alpha)}{\beta})}$. 
+Исходя из предположения $d^*$:
 \begin{equation}
     d^* = \alpha  - \beta \log\left(\frac{s^*}{1-s^*}\right).
 \end{equation}
-Согласно условию $d$ распределен нормально $\sim \mathcal{N}(\alpha_n,\gamma_n)$. $\alpha_n = d^*$, исходя из несмещенности оценки $d_n$. $\gamma_n$ рекуррентно связан с значениям предыдущих операций согласно \ref{diff}:
+Согласно условию $d$ распределен нормально $\sim \mathcal{N}(\alpha_n,\gamma_n)$. $\alpha_n = d^*$, исходя из несмещенности оценки $d_n$. $\gamma_n$ 
+рекуррентно связан с значениям предыдущих операций согласно \ref{diff}:
 \begin{equation}
     \label{gamma_connection}
     \gamma_n = \gamma_{n-1} - \frac{\left(\mathrm{E} \left[ (d_n-d^*) s(d_n)\right] \right)^2}{\mathrm{E}s(d_n)(1 - \mathrm{E}s(d_n))}.
@@ -154,7 +125,7 @@ C другой стороны:
     \label{main_integral_solution}
     I= \frac{1}{4 \sqrt{1+\frac{\pi\gamma_n^2}{8}}} \exp\left( \frac{- \pi (\alpha-d^*)^2}{16 \beta^2 ( 1+\frac{\pi\gamma_n^2}{8})}\right) - \frac{d*}{2 \gamma_n^2} \text{erf}\left(\frac{\sqrt{\pi} (\alpha-d^*)}{4 \beta\sqrt{1+\frac{\pi\gamma_n^2}{8}}} \right).   
 \end{equation}
-Подставляем $I$ в \ref{a_n} получаем аппроксимацию ${a_n}$:
+Подставляем $I$ в \ref{a_n} и получаем аппроксимацию ${a_n}$:
 \begin{equation}
      a_n \approx \frac{1}{b_n(1-b_n)} \frac{1}{4  \beta \sqrt{1+\frac{\pi\gamma_n^2}{8}}} \exp\left( \frac{- \pi (\alpha-d^*)^2}{16  \beta^2 ( 1+\frac{\pi\gamma_n^2}{8})}\right).
 \end{equation}
@@ -165,12 +136,10 @@ C другой стороны:
 \end{equation}
 $\blacksquare$
 
-Явно приведем ключевые выражения для численного выражения:
-\begin{enumerate}
-    \item Приближение оптимального корня:
+Явно приведем основные выражения для приближения к заданному значению $s^*$:
     \begin{equation}
         d^* = \alpha  - \beta \log\left(\frac{s^*}{1-s^*}\right).
-    \end{equation} Коэффициенты $a_n$, $b_n$, $\gamma_n$ рассчитываются рекурсивно
+    \end{equation} Коэффициенты $a_n$, $b_n$, $\gamma_n$ рассчитываются рекурсивно:
     \begin{equation}
         \begin{aligned}
             &\gamma_n = \gamma_{n-1} - \frac{\gamma_{n-1}^2}{1+\gamma_{n-1}} \frac{1}{b_n(1-b_n)}
@@ -179,7 +148,6 @@ $\blacksquare$
             &b_n = \frac{1}{2} + \frac{1}{2} \text{erf}\left(\frac{\sqrt{\pi} (\alpha-d^*)}{4 \beta \sqrt{1+\frac{\pi\gamma_n^2}{8}}} \right).\\  
         \end{aligned}
     \end{equation}
-    Процедуру пересчета коэффициента можно выполнить до проведения испытания, тем самым ускорив исполнение программы.
-\end{enumerate}
 
+Отметим, что процедуру пересчета коэффициентов можно выполнить однократно при инициализации, тем самым ускорив исполнение программы.
 
